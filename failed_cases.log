@@ -1,0 +1,3662 @@
+[2025-09-24 23:41:14] Input: TT Tân Bình Huyện Yên Sơn, Tuyên Quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Tân Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 357/28,Ng-T- Thuật,P1,Q3,TP.HồChíMinh.
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'province': 'Tiền Giang', 'district': 'Mỹ Tho', 'ward': '3'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Nà Làng Phú Bình, Chiêm Hoá, Tuyên Quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Chiêm Hóa', 'ward': 'Phú Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 59/12 Ng-B-Khiêm, Đa Kao Quận 1, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Đa Kao'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 46/8F Trung Chánh 2 Trung Chánh, Hóc Môn, TP. Hồ Chí Minh
+Output: {'district': 'Hóc Môn', 'ward': 'Hóc Môn', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Hóc Môn', 'ward': 'Trung Chánh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: T18,Cẩm Bình, Cẩm Phả, Quảng Ninh.
+Output: {'district': 'Cẩm Phả', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'province': 'Quảng Ninh', 'district': 'Cẩm Phả', 'ward': 'Cẩm Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thanh Long, Yên Mỹ Hưng Yên
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'province': 'Hưng Yên', 'district': 'Yên Mỹ', 'ward': 'Thanh Long'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: D2, Thạnh Lợi, Vĩnh Thạnh Cần Thơ
+Output: {'district': 'Vĩnh Thạnh', 'ward': 'Vĩnh Thạnh', 'province': 'Cần Thơ'}
+Expected: {'province': 'Cần Thơ', 'district': 'Vĩnh Thạnh', 'ward': 'Thạnh Lợi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Khu phố 4 Thị trấn, Dương Minh Châu, Tây Ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Dương Minh Châu', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phú Lộc Phú Thạnh, Phú Tân, An Giang
+Output: {'district': 'Phú Tân', 'ward': 'Phú Thành', 'province': 'An Giang'}
+Expected: {'province': 'An Giang', 'district': 'Phú Tân', 'ward': 'Phú Thạnh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Nam chính Tiền hải, Thái bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Tiền Hải', 'ward': 'Nam Chính'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Đá Hàng Hiệp Thạnh, Gò Dầu, Tây Ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Gò Dầu', 'ward': 'Hiệp Thạnh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 371/11 Thoại Ngọc Hầu Hiệp Tân, Tân Phú, TP. Hồ Chí Minh
+Output: {'district': 'Tân Phú', 'ward': 'Phú Thạnh', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Tân Phú', 'ward': 'Hiệp Tân'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Minh Đạo, Huyện Tiên Du, Tỉnh Bắc Ninh
+Output: {'district': 'Bắc Ninh', 'ward': '', 'province': 'Bắc Ninh'}
+Expected: {'province': 'Bắc Ninh', 'district': 'Tiên Du', 'ward': 'Minh Đạo'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Bồng Khê Huyện Con Cuông, Nghệ An
+Output: {'district': 'Con Cuông', 'ward': 'Con Cuông', 'province': 'Nghệ An'}
+Expected: {'province': 'Nghệ An', 'district': 'Con Cuông', 'ward': 'Bồng Khê'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thôn 16 Cư Prông, Ea Kar, Đắk Lắk
+Output: {'district': 'Ea Kar', 'ward': 'Ea Kar', 'province': 'Đắk Lắk'}
+Expected: {'province': 'Đắk Lắk', 'district': 'Ea Kar', 'ward': 'Cư Prông'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Số 259/54/8, Tổ 28, KP1, Long Bình Tân, Biên Hòa, Đồng Nai.
+Output: {'district': 'Biên Hòa', 'ward': 'Tân Biên', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Pháp Ngỡ, Vĩnh Hòa Vĩnh Lộc, Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Vĩnh Lộc', 'ward': 'Vĩnh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Tiểu khu 3, thị trấn Ba Hàng, huyện Phổ Yên, tỉnh Thái Nguyên.
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xóm 2, Hưng Mỹ, Hưng Nguyên, Nghệ An
+Output: {'district': 'Hưng Nguyên', 'ward': 'Hưng Nguyên', 'province': 'Nghệ An'}
+Expected: {'province': 'Nghệ An', 'district': 'Hưng Nguyên', 'ward': 'Hưng Mỹ'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Bương Hạ Nam, Quỳnh Ngọc Quỳnh Phụ, Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Ngọc'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Nậm Cha Sìn Hổ, Lai Châu
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'province': 'Lai Châu', 'district': 'Sìn Hồ', 'ward': 'Nậm Cha'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P. Nghi Hương Thị xã Cửa Lò, Nghệ An
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'province': 'Nghệ An', 'district': 'Cửa Lò', 'ward': 'Nghi Hương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Hoằng Anh Thành phố Thanh Hóa, Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Hoằng Anh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Ấp Phú Hữu Hữu Định, Châu Thành, Bến Tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'province': 'Bến Tre', 'district': 'Châu Thành', 'ward': 'Hữu Định'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Khóm 1 TT Càng Long, Càng Long, Trà Vinh
+Output: {'district': 'Trà Vinh', 'ward': '', 'province': 'Trà Vinh'}
+Expected: {'province': 'Trà Vinh', 'district': 'Càng Long', 'ward': 'Càng Long'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thôn Xuân Lũng Bình Trung, Cao Lộc, Lạng Sơn
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'province': 'Lạng Sơn', 'district': 'Cao Lộc', 'ward': 'Bình Trung'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Đô xá, Dân Lực, Triệu Sơn, Thanh Hoá.
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Triệu Sơn', 'ward': 'Dân Lực'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 154/4/81 Nguyễn - Phúc Chu, P15, TB, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Khóm 1,Thị Trấn Tam Bình, Vĩnh Long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phố Đức Sơn, TT Bút Sơn, Hoằng Hoá, Thanh Hoá.
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Bút Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Tổ 1, Phú trung P.An Lộc, TX.Bình Long, Bình Phước
+Output: {'district': '', 'ward': '', 'province': 'Bình Phước'}
+Expected: {'province': 'Bình Phước', 'district': 'Bình Long', 'ward': 'An Lộc'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thái Hòa Huyện Thái Thụy, Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Thái Thụy', 'ward': 'Thái Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Thanh Hòa, Huyện Cai Lậy, Tỉnh Tiền Giang
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Thanh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Lương Lỗ, Huyện Thanh Ba, Tỉnh Phú Thọ
+Output: {'district': 'Thanh Ba', 'ward': 'Thanh Ba', 'province': 'Phú Thọ'}
+Expected: {'province': 'Phú Thọ', 'district': 'Thanh Ba', 'ward': 'Lương Lỗ'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Khang Thọ Hưng Hoằng Đức, Hoằng Hóa, Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Đức'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Nam hải Nam trực - Nam định
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'province': 'Nam Định', 'district': 'Nam Trực', 'ward': 'Nam Hải'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 489/24A/18 Huỳnh Văn Bánh Phường 13, Phú Nhuận, TP. Hồ Chí Minh
+Output: {'district': 'Phú Nhuận', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Phú Nhuận', 'ward': '13'}
+Time: 0.0008s
+
+[2025-09-24 23:41:14] Input: 285 B/1A Bình Gĩa Phường 8,Vũng Tàu,Bà Rịa - Vũng Tàu
+Output: {'district': 'Vũng Tàu', 'ward': '', 'province': 'Bà Rịa - Vũng Tàu'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': '8'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: xã Minh Lãng, huyện Vũ Thư, tỉnh Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Vũ Thư', 'ward': 'Minh Lãng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Bộ Đầu Thống Nhất, Thường Tín, Hà Nội
+Output: {'district': 'Thường Tín', 'ward': 'Thường Tín', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Thường Tín', 'ward': 'Thống Nhất'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Tân Bình Huyện Như Xuân, Thanh Hoá
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Như Xuân', 'ward': 'Tân Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Tân Minh, Huyện Sóc Sơn, Thành phố Hà Nội
+Output: {'district': 'Sóc Sơn', 'ward': 'Sóc Sơn', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Sóc Sơn', 'ward': 'Tân Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: KP Phước Trung Thị trấn Đất Đỏ, Đất Đỏ, Bà Rịa - Vũng Tàu
+Output: {'district': 'Vũng Tàu', 'ward': '', 'province': 'Bà Rịa - Vũng Tàu'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Đất Đỏ', 'ward': 'Đất Đỏ'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 55/30 Nguyễn - Thượng Hiền,P5,BT, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Bình Thạnh', 'ward': '5'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 290 Tùng Thiện- Vương,P.13, Quận 8, TP. Hồ Chí Minh.
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '8', 'ward': '13'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 8 Trịnh Văn Cấn P.C-Ô-Lãnh, Q.1, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Bản U Gia Huổi Luông, Phong Thổ, Lai Châu
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'province': 'Lai Châu', 'district': 'Phong Thổ', 'ward': 'Huổi Luông'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Khu phố Nam Tân, TT Thuận Nam, Hàm Thuận Bắc, Bình Thuận.
+Output: {'district': 'Bắc Bình', 'ward': '', 'province': 'Bình Thuận'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: Sơn Hà Nho Quan, Ninh Bình
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'province': 'Ninh Bình', 'district': 'Nho Quan', 'ward': 'Sơn Hà'}
+Time: 0.0022s
+
+[2025-09-24 23:41:14] Input: Xã Nguyên Bình Huyện Tĩnh Gia, Thanh Hoá
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Nguyên Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Cụm 5, Ngọc Tảo, Phúc Thọ Hà Nội
+Output: {'district': 'Phúc Thọ', 'ward': 'Phúc Thọ', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Phúc Thọ', 'ward': 'Ngọc Tảo'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Hoằng Minh, Hoằng Hóa Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Liên Bình, Hải Bình Tĩnh Gia, Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Hải Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 249,KP.2,Tân mai,Biên Hòa, Đồng Nai
+Output: {'district': 'Biên Hòa', 'ward': '', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Tân Mai'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: Tân Trung Tân Thành, Tân Châu, Tây Ninh
+Output: {'district': 'Tây Ninh', 'ward': 'Thạnh Tân', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Tân Châu', 'ward': 'Tân Thành'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Số 43/7 Nguyễn Huệ, P.Sao Đỏ, TX.Chí Linh, Hải Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'province': 'Hải Dương', 'district': 'Chí Linh', 'ward': 'Sao Đỏ'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 24/98C, Phố Hữu Nghị Xuân Khanh, Sơn Tây, Hà Nội
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Xuân Khanh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Tổ 2, Khu phố 2, Phường Long Thủy, Phước Long, Bình Phước.
+Output: {'district': '', 'ward': '', 'province': 'Bình Phước'}
+Expected: {'province': 'Bình Phước', 'district': 'Phước Long', 'ward': 'Long Thủy'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Hà Tân Hưng Hà, Tân Hưng, Long An
+Output: {'district': 'Tân Hưng', 'ward': 'Tân Hưng', 'province': 'Long An'}
+Expected: {'province': 'Long An', 'district': 'Tân Hưng', 'ward': 'Hưng Hà'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Ngọc Chi, Vĩnh Ngọc Đông Anh, Hà Nội
+Output: {'district': 'Đông Anh', 'ward': 'Đông Anh', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Đông Anh', 'ward': 'Vĩnh Ngọc'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 55/21/1 Khu phố 2, Thới An Quận 12, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '12', 'ward': 'Thới An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thạch Bình, Thạch Thành Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thạch Thành', 'ward': 'Thạch Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: - Khu B Chu Hoà, Việt HhiPhú Thọ
+Output: {'district': '', 'ward': '', 'province': 'Phú Thọ'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thôn Am, xã Xuân Hương, Lạng Giang, Bắc Giang.
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'province': 'Bắc Giang', 'district': 'Lạng Giang', 'ward': 'Xuân Hương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Số 7/Q3, KPI, Phường Long Bình Tân, Tp Biên Hoà, Đồng Nai.
+Output: {'district': 'Biên Hòa', 'ward': 'Long Bình', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: A:12A.21BlockA C/c BCA,P.AnKhánh,TP.Thủ Đức, TP. HCM
+Output: {'district': 'Thanh Hóa', 'ward': 'Long Anh', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Thủ Đức', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: L10C12 Hẻm 90, Ng, Bỉnh Khiêm, TP. Rạch Giá, Kiên Giang
+Output: {'district': 'Rạch Giá', 'ward': '', 'province': 'Kiên Giang'}
+Expected: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thôn Lý Viên Bắc Lý, Hiệp Hòa, Bắc Giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'province': 'Bắc Giang', 'district': 'Hiệp Hòa', 'ward': 'Bắc Lý'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 51 Phạm Ngũ Lão, Lê Lợi Sơn Tây, Hà Nội
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Lê Lợi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Mỹ Phú 5 Tường Lộc, Tam Bình, Vĩnh Long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Tường Lộc'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: thôn 2 Suối Rao, Châu Đức, Bà Rịa - Vũng Tàu
+Output: {'district': 'Vũng Tàu', 'ward': '', 'province': 'Bà Rịa - Vũng Tàu'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Châu Đức', 'ward': 'Suối Rao'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 14.5 Block A2, The Mansion, ĐS 7,KDC 13E,Ấp 5,PP,BC, TP.HCM
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Yên Sơn, Huyện Lục Nam, Tỉnh Bắc Giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'province': 'Bắc Giang', 'district': 'Lục Nam', 'ward': 'Yên Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 161/18A Cô Giang, Cô Giang Quận 1, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Cô Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Tân Thắng Tân An Hội, Mang Thít, Vĩnh Long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Mang Thít', 'ward': 'Tân An Hội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phố Tân Mỹ Thị trấn Me, Gia Viễn, Ninh Bình
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'province': 'Ninh Bình', 'district': 'Gia Viễn', 'ward': 'Me'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Trung Môn Yên Sơn - Tuyên Quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Trung Môn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 31B Sư Vạn Hạnh, Phường 3 Quận 10, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '10', 'ward': '3'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 191A Nguyễn Thị Định An Phú, Quận 2, Tp Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '2', 'ward': 'An Phú'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Tường Ngãi Nhơn Bình,Trà Ôn, Vĩnh Long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Trà Ôn', 'ward': 'Nhơn Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Số 1410 Đường 30/4, Phường 12, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu.
+Output: {'district': 'Vũng Tàu', 'ward': '', 'province': 'Bà Rịa - Vũng Tàu'}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': '12'}
+Time: 0.0126s
+
+[2025-09-24 23:41:14] Input: Chiêu Yên Yên Sơn, Tuyên Quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Chiêu Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Ấp Thạnh Hiệp Hòa Thạnh, Tam Bình, Vĩnh Long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Hòa Thạnh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 7/3/4/16 Thành Thái Phường 14, Quận 10, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '10', 'ward': '14'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Ấp Bùng Binh, Hưng Thuận, Trảng Bàng, Tây Ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Trảng Bàng', 'ward': 'Hưng Thuận'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Quang Xá, Quang Hưng, Phù Cừ, Hưng Yên
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'province': 'Hưng Yên', 'district': 'Phù Cừ', 'ward': 'Quang Hưng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thôn Lùng Bẻ Kim Linh, Vị Xuyên, Hà Giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Kim Linh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Krông Búk Huyện Krông Păc, Đắk Lắk
+Output: {'district': 'Krông Búk', 'ward': '', 'province': 'Đắk Lắk'}
+Expected: {'province': 'Đắk Lắk', 'district': 'Krông Pắc', 'ward': 'KRông Búk'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: 820/12 Hậu Giang, Phường 12 Quận 6, TP. Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '6', 'ward': '12'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Liên Minh,,TỉnhThái Nguyên
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': '', 'ward': 'Liên Minh', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: , Gia Viễn, T. Ninh Binh
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'district': 'Gia Viễn', 'ward': '', 'province': 'Ninh Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Chợ Chu, , T Thái Nguyên
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': '', 'ward': 'Chợ Chu', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Hải Ba  Hải Lăng 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Hải Lăng', 'ward': 'Hải Ba', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Huyện Cẩm Thủy Tỉnh Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Cẩm Thủy', 'ward': '', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phường Phú Lợi  TBình Dương
+Output: {'district': '', 'ward': '', 'province': 'Bình Dương'}
+Expected: {'district': '', 'ward': 'Phú Lợi', 'province': 'Bình Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Tự Lạn, HuyệnViệt Yên, T Bắc Giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Việt Yên', 'ward': 'Tự Lạn', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Bình Hiệp,H.Bình Sơn,TỉnhQuảng Ngãi
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Bình Sơn', 'ward': 'Bình Hiệp', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Van Điểm, H hường TLín, Thành phốHa Nội
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': 'Thường Tín', 'ward': 'Vạn Điểm', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thị Trấn Yên Bình  Yên Bình T Yên Bái
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Yên Bình', 'ward': 'Yên Bình', 'province': 'Yên Bái'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XThạnh Đức, HGò Dầ6u, T Tây Ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'district': 'Gò Dầu', 'ward': 'Thạnh Đức', 'province': 'Tây Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Thài Phìn Tủng, Huyện ĐồGg Van,  Hà Gxiang
+Output: {'district': '', 'ward': '', 'province': 'Hậu Giang'}
+Expected: {'district': 'Đồng Văn', 'ward': 'Thài Phìn Tủng', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãBù Gia Mập,,T Bình Phước
+Output: {'district': 'Bù Gia Mập', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Expected: {'district': '', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Mỹ Lương Yên Lập 
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'district': 'Yên Lập', 'ward': 'Mỹ Lương', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: ,H.Nqm Đàn, nghệ An
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': 'Nam Đàn', 'ward': '', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Tam GiangNăm CănT.Cà Mau
+Output: {'district': 'Cà Mau', 'ward': '', 'province': 'Cà Mau'}
+Expected: {'district': 'Năm Căn', 'ward': 'Tam Giang', 'province': 'Cà Mau'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: Xã La Dêê  Quảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'La Dêê', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XTân Thạnh, hAn Minh 
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'An Minh', 'ward': 'Tân Thạnh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Cam Bình, Thành FhốCam Rah,  Khánh Hòa
+Output: {'district': '', 'ward': '', 'province': 'Khánh Hòa'}
+Expected: {'district': 'Cam Ranh', 'ward': 'Cam Bình', 'province': 'Khánh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.UThạnh Lợi  TỉnhLong An
+Output: {'district': '', 'ward': '', 'province': 'Long An'}
+Expected: {'district': '', 'ward': 'Thạnh Lợi', 'province': 'Long An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Minh Tân,h.Lưng Tai,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lương Tài', 'ward': 'Minh Tân', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãQuỳn1 Lâm, H. Quỳnh Phụ,  Thai Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Lâm', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Nà Tấu, , T.Điện Biên
+Output: {'district': 'Điện Biên', 'ward': '', 'province': 'Điện Biên'}
+Expected: {'district': '', 'ward': 'Nà Tấu', 'province': 'Điện Biên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Hiep Tung Huyện Năm Căn T.Cà Mau
+Output: {'district': 'Cà Mau', 'ward': '', 'province': 'Cà Mau'}
+Expected: {'district': 'Năm Căn', 'ward': 'Hiệp Tùng', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Yên Bình, H fHữu Lũng, Lạng Sơn
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': 'Hữu Lũng', 'ward': 'Yên Bình', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  H. Định Quán, Đồng Nai
+Output: {'district': 'Định Quán', 'ward': 'Định Quán', 'province': 'Đồng Nai'}
+Expected: {'district': 'Định Quán', 'ward': '', 'province': 'Đồng Nai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  tPPhổ Yên Tỉnh Thái Nguyên
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': 'Phổ Yên', 'ward': '', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Hà Hồi H. Thường Tin TPHàNội
+Output: {'district': 'Thường Tín', 'ward': 'Thường Tín', 'province': 'Hà Nội'}
+Expected: {'district': 'Thường Tín', 'ward': 'Hà Hồi', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Huyện Hiêp Hòa Bắc Giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Hiệp Hòa', 'ward': '', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:   Đông Giang T Quảyg Nm
+Output: {'district': '', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': 'Đông Giang', 'ward': '', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Sơn Thủy T Quảng Bình
+Output: {'district': '', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': '', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Hoằng Lưu, Hoăng Hóa, TỉnhThanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Hoằng Hóa', 'ward': 'Hoằng Lưu', 'province': 'Thanh Hóa'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: Xan Tiến, H. An Lão, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'An Lão', 'ward': 'An Tiến', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Tam Văn  xLang Chánh  Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Lang Chánh', 'ward': 'Tam Văn', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. HoDng Quỳ,,9hanh Hóa
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Hoằng Quỳ', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãBình Chau,  Bình Sơn, Tỉnh Quảng Ngãi
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Bình Sơn', 'ward': 'Bình Châu', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Tân Tiến,H.Đồng Phú,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đồng Phú', 'ward': 'Tân Tiến', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: FHim Lam   Điện Biê
+Output: {'district': 'Điện Biên', 'ward': '', 'province': 'Điện Biên'}
+Expected: {'district': '', 'ward': 'Him Lam', 'province': 'Điện Biên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  BảIn Sen H Mường Khương T5Lào Cai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mường Khương', 'ward': 'Bản Sen', 'province': 'Lào Cai'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: X Phong Quang, HKuyệnVị Xuyên, Tỉnh Hà Giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Vị Xuyên', 'ward': 'Phong Quang', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãV Ninh, Kiên Xương,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Kiến Xương', 'ward': 'Vũ Ninh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  TP Biên Hòa TỉnhĐyng Nai
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Biên Hòa', 'ward': '', 'province': 'Đồng Nai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Trà DVưong Bắc Trà My TQuảg Nam
+Output: {'district': 'Bắc Trà My', 'ward': 'Trà My', 'province': 'Quảng Nam'}
+Expected: {'district': 'Bắc Trà My', 'ward': 'Trà Dương', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Vĩnh thắng Gò quao T Kiên Giang
+Output: {'district': 'Gò Quao', 'ward': 'Gò Quao', 'province': 'Kiên Giang'}
+Expected: {'district': 'Gò Quao', 'ward': 'Vĩnh Thắng', 'province': 'Kiên Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  H.Bắc Mê TỉnhHà Giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Bắc Mê', 'ward': '', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Thiết Kế,H.Bá Thước,
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Bá Thước', 'ward': 'Thiết Kế', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phưng Khâm Thiên Quận Đ.Đa T.Phố HàNội
+Output: {'district': 'Ứng Hòa', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': 'Đống Đa', 'ward': 'Khâm Thiên', 'province': 'Hà Nội'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: X Quỳnh Nuyên,,T. Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': '', 'ward': 'Quỳnh Nguyên', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XVnh Hung, , T.Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Vĩnh Hùng', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Tăng Thanh, H Yên Thành, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Yên Thành', 'ward': 'Tăng Thành', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãTrung Lập,  Vĩnh Bảo,7 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Vĩnh Bảo', 'ward': 'Trung Lập', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phường Ngoc Thụy  Thành phốHà Nội
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': '', 'ward': 'Ngọc Thụy', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: , Huyện Maỹ Lộc, TỉnhD Nam Định
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': 'Mỹ Lộc', 'ward': '', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Yên Lạc HuyệnNhu Thanh Tỉnh Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Như Thanh', 'ward': 'Yên Lạc', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: TT Qu7 Nhất,,Tỉnh Nam Định
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': '', 'ward': 'Quỹ Nhất', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: QX.Tân Hưng Tây, Ph8 Tân,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phú Tân', 'ward': 'Tân Hưng Tây', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: , Huyện Cẩm Thủy, T.Thanh Hóca
+Output: {'district': 'Cẩm Thủy', 'ward': 'Cẩm Phú', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Cẩm Thủy', 'ward': '', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Phong Dụ, , Quảng Ninh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'district': '', 'ward': 'Phong Dụ', 'province': 'Quảng Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãPhú Hưng  TBến tre
+Output: {'district': 'Bến Tre', 'ward': 'Phú Hưng', 'province': 'Bến Tre'}
+Expected: {'district': '', 'ward': 'Phú Hưng', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XAn Thủy Huyện Lệe Thủy TQuảng Bình
+Output: {'district': '', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': 'Lệ Thủy', 'ward': 'An Thủy', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XBình PhúN  Càng Long, T.u trà Vinh
+Output: {'district': 'Trà Vinh', 'ward': '', 'province': 'Trà Vinh'}
+Expected: {'district': 'Càng Long', 'ward': 'Bình Phú', 'province': 'Trà Vinh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XHòa Bqc, HDi Linh, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Di Linh', 'ward': 'Hòa Bắc', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Cộng Hòa,,TỉnhHaOi Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': '', 'ward': 'Cộng Hòa', 'province': 'Hải Dương'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: Đai TanHuyện Đại ộc,TỉnhQuảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Đại Lộc', 'ward': 'Đại Tân', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  HBảo Lâm 8 Cao Bằng
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': 'Bảo Lâm', 'ward': '', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Sin Suối Hồ HPhong Thổ t Lai Châu
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'district': 'Phong Thổ', 'ward': 'Sin Suối Hồ', 'province': 'Lai Châu'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  An Lowng Phú Giáo TBinh Dương
+Output: {'district': 'Phú Giáo', 'ward': '', 'province': 'Bình Dương'}
+Expected: {'district': 'Phú Giáo', 'ward': 'An Long', 'province': 'Bình Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XKHoan Sơn,TiênDu,Tỉnhbac Ninh
+Output: {'district': 'Bắc Ninh', 'ward': '', 'province': 'Bắc Ninh'}
+Expected: {'district': 'Tiên Du', 'ward': 'Hoàn Sơn', 'province': 'Bắc Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thị trấn Hai Riêng H Sông Hinh 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Sông Hinh', 'ward': 'Hai Riêng', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Diễn Thành Huyện Diên Châu 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Diễn Châu', 'ward': 'Diễn Thành', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: ,Bảo Lâ.,Tỉnh Cao Bằng
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': 'Bảo Lâm', 'ward': '', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Chê La,,T.Hà GianZ
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': '', 'ward': 'Chế Là', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Hôno Sỹ  Tỉnh Cao Bằng
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': '', 'ward': 'Hồng Sỹ', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Hành Tín Tây  T.Quảng Ngãi
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': '', 'ward': 'Hành Tín Tây', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: F An lac Chí Linh Tỉnh Hải Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Chí Linh', 'ward': 'An Lạc', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Hòa Lợi,, Trà vinh
+Output: {'district': 'Trà Vinh', 'ward': '', 'province': 'Trà Vinh'}
+Expected: {'district': '', 'ward': 'Hòa Lợi', 'province': 'Trà Vinh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phường Hiệ An, T.X.Kinh Môn, TỉnhHải Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Kinh Môn', 'ward': 'Hiệp An', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Trịnh Tường H Bát Xát 
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Bát Xát', 'ward': 'Trịnh Tường', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãChiềng Mu5ng  T.stn la
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Chiềng Mung', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Fmễ Trì, Nam Từ Liêm, Thành phố HN
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Nam Từ Liêm', 'ward': 'Mễ Trì', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P4 T.Ph9ốĐông Hà 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hà', 'ward': '4', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Tông Lạnh H.Thuận Chru TSơn La
+Output: {'district': 'Sơn La', 'ward': '', 'province': 'Sơn La'}
+Expected: {'district': 'Thuận Châu', 'ward': 'Tông Lạnh', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  T.PhôSông Công t. Thái Nguyên
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': 'Sông Công', 'ward': '', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: F.07, Q6, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '6', 'ward': '07', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P.Xuân Lam, Thuận Thành, T.Bắc Ninh
+Output: {'district': 'Bắc Ninh', 'ward': '', 'province': 'Bắc Ninh'}
+Expected: {'district': 'Thuận Thành', 'ward': 'Xuân Lâm', 'province': 'Bắc Ninh'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: XãĐông h KBang TGia Lai
+Output: {'district': 'KBang', 'ward': 'KBang', 'province': 'Gia Lai'}
+Expected: {'district': 'KBang', 'ward': 'Đông', 'province': 'Gia Lai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Long Thắng, Huyn Lai ung, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lai Vung', 'ward': 'Long Thắng', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Lưu Sơn, H. Đô Lương, Nghệ An
+Output: {'district': 'Đô Lương', 'ward': 'Đô Lương', 'province': 'Nghệ An'}
+Expected: {'district': 'Đô Lương', 'ward': 'Lưu Sơn', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Chi Lăng,H Chi Lăng,Tỉnh Lạng5 Sơn
+Output: {'district': 'Lạng Sơn', 'ward': 'Chi Lăng', 'province': 'Lạng Sơn'}
+Expected: {'district': 'Chi Lăng', 'ward': 'Chi Lăng', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Bằng Lng,,T.Bắc Kạn
+Output: {'district': 'Bắc Kạn', 'ward': '', 'province': 'Bắc Kạn'}
+Expected: {'district': '', 'ward': 'Bằng Lũng', 'province': 'Bắc Kạn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Huyệntân biên T.TDy Ninh
+Output: {'district': 'Tân Biên', 'ward': 'Tân Biên', 'province': 'Tây Ninh'}
+Expected: {'district': 'Tân Biên', 'ward': '', 'province': 'Tây Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  HuyệnThanh Miện Tỉnh Hải Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Thanh Miện', 'ward': '', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Tân An, HuyệnThnh Hà, 
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Thanh Hà', 'ward': 'Tân An', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãtrBung Thanh,,TThanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Trung Thành', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: vĩnh Hưng, , Long An
+Output: {'district': 'Vĩnh Hưng', 'ward': 'Vĩnh Hưng', 'province': 'Long An'}
+Expected: {'district': '', 'ward': 'Vĩnh Hưng', 'province': 'Long An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phường 04,,Thành phốHồ Chi Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'district': '', 'ward': '04', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Nâm Ntừ  Nậm Pồ 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nậm Pồ', 'ward': 'Nậm Nhừ', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Châu Thuận7  TNghệ An
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': '', 'ward': 'Châu Thuận', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Cẩm Lương HCẩm Thủa T. Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Cẩm Thủy', 'ward': 'Cẩm Lương', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: ,HPhú Bình, thái Nguyên
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': 'Phú Bình', 'ward': '', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Phường Hoài Hảo,T.Xã.Hoai Nhơn,TBình Đinh
+Output: {'district': '', 'ward': '', 'province': 'Bình Định'}
+Expected: {'district': 'Hoài Nhơn', 'ward': 'Hoài Hảo', 'province': 'Bình Định'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P Ea Tam T.P Buôn Ma Thuột TỉnĐắk Llk
+Output: {'district': 'Hà Tĩnh', 'ward': '', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Buôn Ma Thuột', 'ward': 'Ea Tam', 'province': 'Đắk Lắk'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: F Tân Dân, T.Xã.Nghi Sơn, TỉnhThanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Nghi Sơn', 'ward': 'Tân Dân', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XNam Cát, HuyệnNam đàn, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nam Đàn', 'ward': 'Nam Cát', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Vị Tân  Vị Than 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Vị Thanh', 'ward': 'Vị Tân', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X My Thành Bac, HuyệnCai Lậy, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Cai Lậy', 'ward': 'Mỹ Thành Bắc', 'province': ''}
+Time: 0.0126s
+
+[2025-09-24 23:41:14] Input: XCư Drămb H.Krông Bông 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Krông Bông', 'ward': 'Cư Drăm', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Bình Hi, , T.Quảcg Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'Bình Hải', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãNân Chính, H Ly Nhân, Tỉnh HaNam
+Output: {'district': 'Lý Nhân', 'ward': 'Nhân Thịnh', 'province': 'Hà Nam'}
+Expected: {'district': 'Lý Nhân', 'ward': 'Nhân Chính', 'province': 'Hà Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Khả cửu, H. Thanh Srn, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thanh Sơn', 'ward': 'Khả Cửu', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: , Đông Hòa,Tỉnh Phú yn
+Output: {'district': 'Sơn Hòa', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Đông Hòa', 'ward': '', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  HuyệnĐắk Tô T. KonTum
+Output: {'district': 'Đắk Tô', 'ward': 'Đắk Tô', 'province': 'Kon Tum'}
+Expected: {'district': 'Đắk Tô', 'ward': '', 'province': 'Kon Tum'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thị Trấn Nông Trường Việt lâm,Vị Xuyen,Ha Giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Vị Xuyên', 'ward': 'Nông Trường Việt Lâm', 'province': 'Hà Giang'}
+Time: 0.0120s
+
+[2025-09-24 23:41:14] Input: , Q11, Hồ Chí Minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'district': '11', 'ward': '', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  H. Đăk Đoa TỉnhGia Lai
+Output: {'district': 'Đăk Đoa', 'ward': 'Đăk Đoa', 'province': 'Gia Lai'}
+Expected: {'district': 'Đăk Đoa', 'ward': '', 'province': 'Gia Lai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: F.LoWng Binh, TpThủ Đưc, TPHCM
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thủ Đức', 'ward': 'Long Bình', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Đông cường, h.Đông Hưng, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hưng', 'ward': 'Đông Cường', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XTrung Nghĩa, , THưng Yên
+Output: {'district': 'Hưng Yên', 'ward': 'Trung Nghĩa', 'province': 'Hưng Yên'}
+Expected: {'district': '', 'ward': 'Trung Nghĩa', 'province': 'Hưng Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:   Chư Se T Gia Lai
+Output: {'district': 'Chư Sê', 'ward': 'Chư Sê', 'province': 'Gia Lai'}
+Expected: {'district': 'Chư Sê', 'ward': '', 'province': 'Gia Lai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Hải Minh,,N5am Định
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': '', 'ward': 'Hải Minh', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Đề Thám  T.Lạng Sơn
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': '', 'ward': 'Đề Thám', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: PhườngHà Mãn, T.X.Thuận Thành, 
+Output: {'district': 'Hà Tĩnh', 'ward': '', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Thuận Thành', 'ward': 'Hà Mãn', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xa Sơn Thy H. Le Thủy Tỉnh Quảng Bình
+Output: {'district': 'Lệ Thủy', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': 'Lệ Thủy', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: x. Nam Thai A, AZBiên,Tỉnh Kiên Giang
+Output: {'district': '', 'ward': '', 'province': 'Kiên Giang'}
+Expected: {'district': 'An Biên', 'ward': 'Nam Thái A', 'province': 'Kiên Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P. Quảng Thọ,T.P Sầm Swn,TY. thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Sầm Sơn', 'ward': 'Quảng Thọ', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Đông Htòa Phu Yên
+Output: {'district': '', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Đông Hòa', 'ward': '', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Tam Amnh NZm  Núi Thành TQuảng Nam
+Output: {'district': 'Núi Thành', 'ward': 'Núi Thành', 'province': 'Quảng Nam'}
+Expected: {'district': 'Núi Thành', 'ward': 'Tam Anh Nam', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Vân Du, , Phú Thọ
+Output: {'district': '', 'ward': '', 'province': 'Phú Thọ'}
+Expected: {'district': '', 'ward': 'Vân Du', 'province': 'Phú Thọ'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P. Phong CNốc Th,ị xãQuảng Yên t. Quảng Ninh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'district': 'Quảng Yên', 'ward': 'Phong Cốc', 'province': 'Quảng Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.An Thuận, , TBến Tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'district': '', 'ward': 'An Thuận', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Nghi Sơ6n, T.X. Nghi Sơn, Thhanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Nghi Sơn', 'ward': 'Nghi Sơn', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: , ThăngFBìh,T. Quảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Thăng Bình', 'ward': '', 'province': 'Quảng Nam'}
+Time: 0.0102s
+
+[2025-09-24 23:41:14] Input: TT Đạ Tẻh, , T. Lâm Đồng
+Output: {'district': 'Đạ Tẻh', 'ward': 'Đạ Tẻh', 'province': 'Lâm Đồng'}
+Expected: {'district': '', 'ward': 'Đạ Tẻh', 'province': 'Lâm Đồng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: TT Hội An,,TAn Giang
+Output: {'district': '', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': '', 'ward': 'Hội An', 'province': 'An Giang'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: X. TErường Thịnh,h Ứng Hòa, Hà Nội
+Output: {'district': 'Ứng Hòa', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': 'Ứng Hòa', 'ward': 'Trường Thịnh', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.H Mỗ, Đan PhTượng,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đan Phượng', 'ward': 'Hạ Mỗ', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Tiến Nông,H Trệu Sơn,T. Thanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Triệu Sơn', 'ward': 'Tiến Nông', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: , HuyệnBình Sơn, TQuảng Ngãi
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Bình Sơn', 'ward': '', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Quang Tiếns6 Tân Yên, 
+Output: {'district': '', 'ward': '', 'province': 'Quảng Trị'}
+Expected: {'district': 'Tân Yên', 'ward': 'Quang Tiến', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thị Trấn Kẻ Sặt H.Binh giang THải Dưong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Bình Giang', 'ward': 'Kẻ Sặt', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Lương Hòa,HuyệnBen Lức,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bến Lức', 'ward': 'Lương Hòa', 'province': ''}
+Time: 0.0006s
+
+[2025-09-24 23:41:14] Input: X.Tân Son,hchợ QMới,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Chợ Mới', 'ward': 'Tân Sơn', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Quách Phẩm Bắc, , Cà Mzu
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Quách Phẩm Bắc', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Tvực Đạo, , Nam Định
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': '', 'ward': 'Trực Đạo', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thị trấn Tân Phong, , TThanh Hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Tân Phong', 'province': 'Thanh Hóa'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: X. Lộc Thah,T0P Bảo lộc,TLâm Đông
+Output: {'district': 'Bảo Lộc', 'ward': '', 'province': 'Lâm Đồng'}
+Expected: {'district': 'Bảo Lộc', 'ward': 'Lộc Thanh', 'province': 'Lâm Đồng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Đương Hoa  TQuảng Ninh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'district': '', 'ward': 'Đường Hoa', 'province': 'Quảng Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: xã Vạn Kim, HuyệnMỹ Đức, T.P HNội
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mỹ Đức', 'ward': 'Vạn Kim', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XMiền Đồi,LaZc Sơn,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lạc Sơn', 'ward': 'Miền Đồi', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Phu Mãn   HN
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Phú Mãn', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Mường Lèo H Sốp Cộp T Sơn ma
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Sốp Cộp', 'ward': 'Mường Lèo', 'province': 'Sơn La'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input:  Huyện Chợ gạo Tỉ,nh Tiền Giang
+Output: {'district': 'Chợ Gạo', 'ward': 'Chợ Gạo', 'province': 'Tiền Giang'}
+Expected: {'district': 'Chợ Gạo', 'ward': '', 'province': 'Tiền Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Tam Xuân I Huyệnúi Thành Quảng Nam
+Output: {'district': 'Núi Thành', 'ward': 'Núi Thành', 'province': 'Quảng Nam'}
+Expected: {'district': 'Núi Thành', 'ward': 'Tam Xuân I', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: J,Huyệnđô Lương,Tỉnh Nghệ An
+Output: {'district': 'Đô Lương', 'ward': 'Đô Lương', 'province': 'Nghệ An'}
+Expected: {'district': 'Đô Lương', 'ward': '', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XTâm Thsắng Cư Jút TỉnhĐắk Nông
+Output: {'district': 'Cư Jút', 'ward': '', 'province': 'Đắk Nông'}
+Expected: {'district': 'Cư Jút', 'ward': 'Tâm Thắng', 'province': 'Đắk Nông'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Hòa Trị Huzyen hú Hoa TPhú Yên
+Output: {'district': '', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Phú Hoà', 'ward': 'Hòa Trị', 'province': 'Phú Yên'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: XLa Sơn H. Binh lục 
+Output: {'district': 'Yên Bình', 'ward': 'Yên Bình', 'province': 'Yên Bái'}
+Expected: {'district': 'Bình Lục', 'ward': 'La Sơn', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: F. Điện Nam Bắc, x TQuảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'Điện Nam Bắc', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: ,H Krông Năng,Đắk Lắk
+Output: {'district': 'Krông Năng', 'ward': 'Krông Năng', 'province': 'Đắk Lắk'}
+Expected: {'district': 'Krông Năng', 'ward': '', 'province': 'Đắk Lắk'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: XTân Nghia  Di Linh Lâm ĐồnG
+Output: {'district': 'Di Linh', 'ward': 'Di Linh', 'province': 'Lâm Đồng'}
+Expected: {'district': 'Di Linh', 'ward': 'Tân Nghĩa', 'province': 'Lâm Đồng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Bình Sa HuyệnThăng Bình 
+Output: {'district': '', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': 'Thăng Bình', 'ward': 'Bình Sa', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: ,H Bắc Son,TỉnhLạng Son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': 'Bắc Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: xTân Lập, H Vũ Thư, Thái bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Vũ Thư', 'ward': 'Tân Lập', 'province': 'Thái Bình'}
+Time: 0.0010s
+
+[2025-09-24 23:41:14] Input: Tinh Nhu Huyện Thanh Sơn Tỉnh Phú Tho
+Output: {'district': 'Thanh Sơn', 'ward': 'Thanh Sơn', 'province': 'Phú Thọ'}
+Expected: {'district': 'Thanh Sơn', 'ward': 'Tinh Nhuệ', 'province': 'Phú Thọ'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: XãGia Vượng, Gia Viễn, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Gia Viễn', 'ward': 'Gia Vượng', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Hợp đức, , Tp Hải Phòng
+Output: {'district': '', 'ward': '', 'province': 'Hải Phòng'}
+Expected: {'district': '', 'ward': 'Hợp Đức', 'province': 'Hải Phòng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Thị trấnSông Đốc, , TnhCà Mau
+Output: {'district': 'Cà Mau', 'ward': '', 'province': 'Cà Mau'}
+Expected: {'district': '', 'ward': 'Sông Đốc', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: ,H.Trảng Bom,Đồng Nai
+Output: {'district': 'Trảng Bom', 'ward': 'Trảng Bom', 'province': 'Đồng Nai'}
+Expected: {'district': 'Trảng Bom', 'ward': '', 'province': 'Đồng Nai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.Yên Phong  Tỉnh Bắc Kạn
+Output: {'district': 'Bắc Kạn', 'ward': '', 'province': 'Bắc Kạn'}
+Expected: {'district': '', 'ward': 'Yên Phong', 'province': 'Bắc Kạn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: P. Nhi Thu Thị xã Cửa Lò TNghệ An
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': 'Cửa Lò', 'ward': 'Nghi Thu', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: F.Dịch Vọng  C/Giấy Thành phốHàNội
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': 'Cầu Giấy', 'ward': 'Dịch Vọng', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input:  Ea Huar,HuyệnBuôn Đôn,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Buôn Đôn', 'ward': 'Ea Huar', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X.SRó  Kông Chro T.Gia Lai
+Output: {'district': 'Kông Chro', 'ward': 'Kông Chro', 'province': 'Gia Lai'}
+Expected: {'district': 'Kông Chro', 'ward': 'SRó', 'province': 'Gia Lai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X Tân Thanh Huyện Lang Giang 
+Output: {'district': '', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': 'Lạng Giang', 'ward': 'Tân Thanh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: X. Sơn Hv HSơn Hoa Tỉnh Phú Yên
+Output: {'district': 'Sơn Hòa', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Sơn Hòa', 'ward': 'Sơn Hội', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:14] Input: Xã Bản My H..Hoàng Su Phì T.Hà Giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Hoàng Su Phì', 'ward': 'Bản Máy', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Công Hòa H.Kim Thành 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Kim Thành', 'ward': 'Cộng Hòa', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XãChơ Chun, H NamiGiang, T.Quảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Nam Giang', 'ward': 'Chơ Chun', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X.Vô Tranh, hLục Nam, Bắc Giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Lục Nam', 'ward': 'Vô Tranh', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:   Quỳ Châu T.NSghệ An
+Output: {'district': 'Quỳ Châu', 'ward': 'Châu Bình', 'province': 'Nghệ An'}
+Expected: {'district': 'Quỳ Châu', 'ward': '', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  H.Văn Giang Tỉnh Hưng Yê0
+Output: {'district': '', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': 'Văn Giang', 'ward': '', 'province': 'Hưng Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: x.Ba tiêu,  Ba Tơ, Quảng Ngãi
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Ba Tơ', 'ward': 'Ba Tiêu', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:   Chí Linh  Hải Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Chí Linh', 'ward': '', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  eăn Tiến, Yên Lạc, vĩnh P0húc
+Output: {'district': 'Yên Lạc', 'ward': 'Yên Lạc', 'province': 'Vĩnh Phúc'}
+Expected: {'district': 'Yên Lạc', 'ward': 'Văn Tiến', 'province': 'Vĩnh Phúc'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: F. An Phú T.X. Tịnh Biên T.An Giang
+Output: {'district': 'An Phú', 'ward': 'An Phú', 'province': 'An Giang'}
+Expected: {'district': 'Tịnh Biên', 'ward': 'An Phú', 'province': 'An Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X.Cẩm Hoàng,,T. Hải Dươnwg
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': '', 'ward': 'Cẩm Hoàng', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X. Cat Chánh,HuyệnPhù Cát,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phù Cát', 'ward': 'Cát Chánh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Ea Kmút,hyệnea Kar,Tỉnwh Đắk Lắk
+Output: {'district': 'Ea Kar', 'ward': 'Ea Kar', 'province': 'Đắk Lắk'}
+Expected: {'district': 'Ea Kar', 'ward': 'Ea Kmút', 'province': 'Đắk Lắk'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xã 7Sơn Hà HuyệnNho Quan Tinh Ninh Bình
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'district': 'Nho Quan', 'ward': 'Sơn Hà', 'province': 'Ninh Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X.Mỹ Thạnh, HuyệnGiong Trôm, TỉnhBến Tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'district': 'Giồng Trôm', 'ward': 'Mỹ Thạnh', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xã C.hâu Minh, HHiệp Ha, TBắc Giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Hiệp Hòa', 'ward': 'Châu Minh', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xthịnh Vượng,A , TG.Cao băng
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': '', 'ward': 'Thịnh Vượng', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Diên Thạnh,,T Khabnh Hòa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Diên Thạnh', 'province': 'Khánh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X.Việt Hồng, , TrHà Giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': '', 'ward': 'Việt Hồng', 'province': 'Hà Giang'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: X.Đức Sơn Anh Sơn 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Anh Sơn', 'ward': 'Đức Sơn', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: X.Điện Hồng,Thị xã Điện Bàn,t Quảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Điện Bàn', 'ward': 'Điện Hồng', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Đứ Lợi,H Mộ Đức,TỉnhQuản Ngãi
+Output: {'district': 'Mộ Đức', 'ward': 'Mộ Đức', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Mộ Đức', 'ward': 'Đức Lợi', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X Song Lộc H.Châu Thành 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Châu Thành', 'ward': 'Song Lộc', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: X. Bản Nguyen,HuyệnLâm Thao,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lâm Thao', 'ward': 'Bản Nguyên', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: Phương Công,huyen Tiền Hải,T.Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Tiền Hải', 'ward': 'Phương Công', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XPhước Vĩnh Đông  Cần Giuộc T. Long An
+Output: {'district': 'Cần Giuộc', 'ward': 'Cần Giuộc', 'province': 'Long An'}
+Expected: {'district': 'Cần Giuộc', 'ward': 'Phước Vĩnh Đông', 'province': 'Long An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XThạch Xuâ,Thạch Hà,T. Hà Tĩnh
+Output: {'district': 'Hà Tĩnh', 'ward': 'Thạch Hạ', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Thạch Hà', 'ward': 'Thạch Xuân', 'province': 'Hà Tĩnh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Quận 1 T.P H.C.Minh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Trị'}
+Expected: {'district': '1', 'ward': '', 'province': 'Hồ Chí Minh'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: Sín Chéng,HuyệnSi Ma Cai,TỉnhLào Cai
+Output: {'district': 'Lào Cai', 'ward': 'Lào Cai', 'province': 'Lào Cai'}
+Expected: {'district': 'Si Ma Cai', 'ward': 'Sín Chéng', 'province': 'Lào Cai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XDuy Hải  TQuảng Nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'Duy Hải', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: x. Văn Cẩs HuyệnHung Hà Tthái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Hưng Hà', 'ward': 'Văn Cẩm', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: , Mường La,  sơn La
+Output: {'district': 'Sơn La', 'ward': '', 'province': 'Sơn La'}
+Expected: {'district': 'Mường La', 'ward': '', 'province': 'Sơn La'}
+Time: 0.0054s
+
+[2025-09-24 23:41:15] Input: oã Bnh Ngọc,T.Phố Tuy Hoà,Tỉnhphú Yên
+Output: {'district': 'Tuy Hoà', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Tuy Hoà', 'ward': 'Bình Ngọc', 'province': 'Phú Yên'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input:  Chương Dương, HuyệnĐôngHưng, 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hưng', 'ward': 'Chương Dương', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Nậm Tin  Diện Biên
+Output: {'district': 'Điện Biên', 'ward': '', 'province': 'Điện Biên'}
+Expected: {'district': '', 'ward': 'Nậm Tin', 'province': 'Điện Biên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  T.P Phan Rang-Tháp lhàm  Ninh Thuận
+Output: {'district': '', 'ward': '', 'province': 'Ninh Thuận'}
+Expected: {'district': 'Phan Rang-Tháp Chàm', 'ward': '', 'province': 'Ninh Thuận'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X An Đức, Huyên Ninh Giang, T.Hải Dương
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Ninh Giang', 'ward': 'An Đức', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XTrung Kiên,,Tỉnh Vĩnh Phuúc
+Output: {'district': '', 'ward': '', 'province': 'Vĩnh Phúc'}
+Expected: {'district': '', 'ward': 'Trung Kiên', 'province': 'Vĩnh Phúc'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X. Đông Lâm2, Huyen Tiền Hải, T.Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Tiền Hải', 'ward': 'Đông Lâm', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  H. Ea Súp  Đắk Lắk
+Output: {'district': 'Ea Súp', 'ward': 'Ea Súp', 'province': 'Đắk Lắk'}
+Expected: {'district': 'Ea Súp', 'ward': '', 'province': 'Đắk Lắk'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Đức Lĩnh,Vũ Quang,
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Vũ Quang', 'ward': 'Đức Lĩnh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XQuỳnh Hôi, Quỳnh Phụ, Thái Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Hội', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Yn phú, HBắc Mê, TỉnhV Hà giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Bắc Mê', 'ward': 'Yên Phú', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xuân Tân t.P Long Khánh 
+Output: {'district': 'Hương Sơn', 'ward': 'Sơn Long', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Long Khánh', 'ward': 'Xuân Tân', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xia Ake, HuyệnPhú Thiện, TGia Lai
+Output: {'district': 'Phú Thiện', 'ward': 'Phú Thiện', 'province': 'Gia Lai'}
+Expected: {'district': 'Phú Thiện', 'ward': 'Ia Ake', 'province': 'Gia Lai'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: X.Thái Sơn, An Lão, hải Phòng
+Output: {'district': 'An Lão', 'ward': 'An Lão', 'province': 'Hải Phòng'}
+Expected: {'district': 'An Lão', 'ward': 'Thái Sơn', 'province': 'Hải Phòng'}
+Time: 0.0004s
+
+[2025-09-24 23:41:15] Input:  H Ea H'leo T Đắk Lắk
+Output: {'district': 'Lắk', 'ward': '', 'province': 'Đắk Lắk'}
+Expected: {'district': "Ea H'leo", 'ward': '', 'province': 'Đắk Lắk'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Phú Đô HuyệnPhú Lươnz 
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phú Lương', 'ward': 'Phú Đô', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Thái Ha, HBa Vì, T.pHNội
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Ba Vì', 'ward': 'Thái Hòa', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X.Phước Hiệp  Tỉnh Bến Tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'district': '', 'ward': 'Phước Hiệp', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XHuy Hạ,  phù Yêu, T.Sơn La
+Output: {'district': 'Sơn La', 'ward': '', 'province': 'Sơn La'}
+Expected: {'district': 'Phù Yên', 'ward': 'Huy Hạ', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: TTr.Quỳnh Côi,HQuỳnh Phụ,TThai Bình
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Côi', 'province': 'Thái Bình'}
+Time: 0.0009s
+
+[2025-09-24 23:41:15] Input: , Nam Đông,T. T.T.H
+Output: {'district': '', 'ward': '', 'province': 'Lâm Đồng'}
+Expected: {'district': 'Nam Đông', 'ward': '', 'province': 'Thừa Thiên Huế'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Cam Nhân HuyệnYên Bình TYên Bái
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Yên Bình', 'ward': 'Cảm Nhân', 'province': 'Yên Bái'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xã Ninh Sở, Huyện Thường Tin, T.Phà Nội
+Output: {'district': 'Thường Tín', 'ward': 'Thường Tín', 'province': 'Hà Nội'}
+Expected: {'district': 'Thường Tín', 'ward': 'Ninh Sở', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X Đoàn đào,4 Phù Cừ,T.Hưng Yên
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'district': 'Phù Cừ', 'ward': 'Đoàn Đào', 'province': 'Hưng Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X. Hương Liên HuyệnHương Khê T Hà Tinh
+Output: {'district': 'Hà Tĩnh', 'ward': '', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Hương Khê', 'ward': 'Hương Liên', 'province': 'Hà Tĩnh'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  bản HoJn huyện Tam Đường Tỉnh Lai Châu
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'district': 'Tam Đường', 'ward': 'Bản Hon', 'province': 'Lai Châu'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:  Điên Hải, Đông Hải, T bạc Liêu
+Output: {'district': 'Bạc Liêu', 'ward': '', 'province': 'Bạc Liêu'}
+Expected: {'district': 'Đông Hải', 'ward': 'Điền Hải', 'province': 'Bạc Liêu'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: , H KBang, Gia Lai
+Output: {'district': 'KBang', 'ward': 'KBang', 'province': 'Gia Lai'}
+Expected: {'district': 'KBang', 'ward': '', 'province': 'Gia Lai'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X. Thanh Phongjc , Tỉnhthanh hóa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Thanh Phong', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input:   Bắc Trà My TỉnhQuảng NaHm
+Output: {'district': 'Bắc Trà My', 'ward': 'Trà My', 'province': 'Quảng Nam'}
+Expected: {'district': 'Bắc Trà My', 'ward': '', 'province': 'Quảng Nam'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: xã Bình Trung,,TLạng Son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': '', 'ward': 'Bình Trung', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: ,  Ba Vì, TP Hà Nội
+Output: {'district': 'Ba Vì', 'ward': 'Ba Vì', 'province': 'Hà Nội'}
+Expected: {'district': 'Ba Vì', 'ward': '', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: ,Diễn Châu,TỉnhNghệ An
+Output: {'district': 'Diễn Châu', 'ward': 'Diễn Châu', 'province': 'Nghệ An'}
+Expected: {'district': 'Diễn Châu', 'ward': '', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Đông thanh AnE Minh T kien Giang
+Output: {'district': '', 'ward': '', 'province': 'Kiên Giang'}
+Expected: {'district': 'An Minh', 'ward': 'Đông Thạnh', 'province': 'Kiên Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: Xã Tân Lĩnh, H.Lục Yên, TYên Bái
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Lục Yên', 'ward': 'Tân Lĩnh', 'province': 'Yên Bái'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: P Thủy Châu,T.X. hươngThủy,Thừa.t.Huế
+Output: {'district': 'Huế', 'ward': 'Hương Thọ', 'province': 'Thừa Thiên Huế'}
+Expected: {'district': 'Hương Thủy', 'ward': 'Thủy Châu', 'province': 'Thừa Thiên Huế'}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: Thi trấ Ea. Knốp,H. Ea Kar,
+Output: {'district': '', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Ea Kar', 'ward': 'Ea Knốp', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: X.Nga Thanh hyện Nga son TỉnhThanhQ Hóa
+Output: {'district': 'Nga Sơn', 'ward': 'Nga Sơn', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Nga Sơn', 'ward': 'Nga Thanh', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: ,Lệ Thủy,T quảng BìnKh
+Output: {'district': 'Lệ Thủy', 'ward': 'Liên Thủy', 'province': 'Quảng Bình'}
+Expected: {'district': 'Lệ Thủy', 'ward': '', 'province': 'Quảng Bình'}
+Time: 0.0107s
+
+[2025-09-24 23:41:15] Input: F Tân bình  dĩ An 
+Output: {'district': '', 'ward': '', 'province': 'Long An'}
+Expected: {'district': 'Dĩ An', 'ward': 'Tân Bình', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:41:15] Input: x2Trung Sơn,,TỉnhNghê An
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': '', 'ward': 'Trung Sơn', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:41:15] Input: XãCôn Lôn,H Na Hang,TỉnhC Tuyên.Quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'district': 'Na Hang', 'ward': 'Côn Lôn', 'province': 'Tuyên Quang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: TT Tân Bình Huyện Yên Sơn, Tuyên Quang
+Normalized: thi tran tan binh huyen yen son tuyen quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Tân Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 357/28,Ng-T- Thuật,P1,Q3,TP.HồChíMinh.
+Normalized: thuat phuong
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.
+Normalized: nguyen van giao phuong my tho tinh giang
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Tiền Giang', 'district': 'Mỹ Tho', 'ward': '3'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Nà Làng Phú Bình, Chiêm Hoá, Tuyên Quang
+Normalized: na lang phu binh chiem hoa tuyen quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Chiêm Hóa', 'ward': 'Phú Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 59/12 Ng-B-Khiêm, Đa Kao Quận 1, TP. Hồ Chí Minh
+Normalized: nguyen b khiem da kao quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Đa Kao'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: T18,Cẩm Bình, Cẩm Phả, Quảng Ninh.
+Normalized: tinh binh cam pha quang ninh
+Output: {'district': 'Cẩm Phả', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'province': 'Quảng Ninh', 'district': 'Cẩm Phả', 'ward': 'Cẩm Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thanh Long, Yên Mỹ Hưng Yên
+Normalized: thanh long yen my hung yen
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'province': 'Hưng Yên', 'district': 'Yên Mỹ', 'ward': 'Thanh Long'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Khu phố 4 Thị trấn, Dương Minh Châu, Tây Ninh
+Normalized: khu pho thi tran duong minh chau tay ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Dương Minh Châu', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phú Lộc Phú Thạnh, Phú Tân, An Giang
+Normalized: phu loc phu thanh phu tan an giang
+Output: {'district': 'Phú Tân', 'ward': 'Phú Thành', 'province': 'An Giang'}
+Expected: {'province': 'An Giang', 'district': 'Phú Tân', 'ward': 'Phú Thạnh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Nam chính Tiền hải, Thái bình
+Normalized: nam chinh tien hai thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Tiền Hải', 'ward': 'Nam Chính'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Đá Hàng Hiệp Thạnh, Gò Dầu, Tây Ninh
+Normalized: da hang hiep thanh go dau tay ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Gò Dầu', 'ward': 'Hiệp Thạnh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 371/11 Thoại Ngọc Hầu Hiệp Tân, Tân Phú, TP. Hồ Chí Minh
+Normalized: thoai ngoc hau hiep tan tan phu thanh pho ho chi minh
+Output: {'district': 'Tân Phú', 'ward': 'Phú Thạnh', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Tân Phú', 'ward': 'Hiệp Tân'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tổ Dân Phố 3 Thị trấn Chư Prông, Chư Prông, Gia Lai
+Normalized: to dan pho thi tran chu prong chu prong gia lai
+Output: {'district': 'Chư Prông', 'ward': '', 'province': 'Gia Lai'}
+Expected: {'province': 'Gia Lai', 'district': 'Chư Prông', 'ward': 'Chư Prông'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Minh Đạo, Huyện Tiên Du, Tỉnh Bắc Ninh
+Normalized: xa minh dao huyen tien du tinh bac ninh
+Output: {'district': 'Bắc Ninh', 'ward': '', 'province': 'Bắc Ninh'}
+Expected: {'province': 'Bắc Ninh', 'district': 'Tiên Du', 'ward': 'Minh Đạo'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Số 259/54/8, Tổ 28, KP1, Long Bình Tân, Biên Hòa, Đồng Nai.
+Normalized: so to khu pho long binh tan bien hoa dong nai
+Output: {'district': 'Biên Hòa', 'ward': 'Tân Biên', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Pháp Ngỡ, Vĩnh Hòa Vĩnh Lộc, Thanh Hóa
+Normalized: phap ngo vinh hoa vinh loc thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Vĩnh Lộc', 'ward': 'Vĩnh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tiểu khu 3, thị trấn Ba Hàng, huyện Phổ Yên, tỉnh Thái Nguyên.
+Normalized: tieu khu thi tran ba hang huyen pho yen tinh thai nguyen
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Bương Hạ Nam, Quỳnh Ngọc Quỳnh Phụ, Thái Bình
+Normalized: buong ha nam quynh ngoc quynh phu thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Ngọc'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Nậm Cha Sìn Hổ, Lai Châu
+Normalized: nam cha sin ho lai chau
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'province': 'Lai Châu', 'district': 'Sìn Hồ', 'ward': 'Nậm Cha'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P. Nghi Hương Thị xã Cửa Lò, Nghệ An
+Normalized: phuong nghi huong thi xa cua lo nghe an
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'province': 'Nghệ An', 'district': 'Cửa Lò', 'ward': 'Nghi Hương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Hoằng Anh Thành phố Thanh Hóa, Thanh Hóa
+Normalized: hoang anh thanh pho thanh hoa thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Hoằng Anh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Ấp Phú Hữu Hữu Định, Châu Thành, Bến Tre
+Normalized: ap phu huu huu dinh chau thanh ben tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'province': 'Bến Tre', 'district': 'Châu Thành', 'ward': 'Hữu Định'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Khóm 1 TT Càng Long, Càng Long, Trà Vinh
+Normalized: khom thi tran cang long cang long tra vinh
+Output: {'district': 'Trà Vinh', 'ward': '', 'province': 'Trà Vinh'}
+Expected: {'province': 'Trà Vinh', 'district': 'Càng Long', 'ward': 'Càng Long'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thôn Xuân Lũng Bình Trung, Cao Lộc, Lạng Sơn
+Normalized: thon xuan lung binh trung cao loc lang son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'province': 'Lạng Sơn', 'district': 'Cao Lộc', 'ward': 'Bình Trung'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: TT. Phù Mỹ Phù Mỹ, Bình Định
+Normalized: thi tran phu my phu my binh dinh
+Output: {'district': 'Phù Mỹ', 'ward': '', 'province': 'Bình Định'}
+Expected: {'province': 'Bình Định', 'district': 'Phù Mỹ', 'ward': 'Phù Mỹ'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Đô xá, Dân Lực, Triệu Sơn, Thanh Hoá.
+Normalized: do xa dan luc trieu son thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Triệu Sơn', 'ward': 'Dân Lực'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 154/4/81 Nguyễn - Phúc Chu, P15, TB, TP. Hồ Chí Minh
+Normalized: nguyen phuc chu phuong tb thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Khu vực 1 TT Đức Hòa, Đức Hòa, Long An
+Normalized: khu vuc thi tran duc hoa duc hoa long an
+Output: {'district': 'Đức Hòa', 'ward': '', 'province': 'Long An'}
+Expected: {'province': 'Long An', 'district': 'Đức Hòa', 'ward': 'Đức Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Khóm 1,Thị Trấn Tam Bình, Vĩnh Long
+Normalized: khom tran tam binh vinh long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phố Đức Sơn, TT Bút Sơn, Hoằng Hoá, Thanh Hoá.
+Normalized: pho duc son thi tran but son hoang hoa thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Bút Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tổ 1, Phú trung P.An Lộc, TX.Bình Long, Bình Phước
+Normalized: to phu trung phuong an loc thi xa binh long binh phuoc
+Output: {'district': '', 'ward': '', 'province': 'Bình Phước'}
+Expected: {'province': 'Bình Phước', 'district': 'Bình Long', 'ward': 'An Lộc'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thái Hòa Huyện Thái Thụy, Thái Bình
+Normalized: thai hoa huyen thai thuy thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Thái Thụy', 'ward': 'Thái Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Thanh Hòa, Huyện Cai Lậy, Tỉnh Tiền Giang
+Normalized: xa thanh hoa huyen cai lay tinh tien giang
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Thanh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Khang Thọ Hưng Hoằng Đức, Hoằng Hóa, Thanh Hóa
+Normalized: khang tho hung hoang duc hoang hoa thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Đức'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Nam hải Nam trực - Nam định
+Normalized: nam hai nam truc nam dinh
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'province': 'Nam Định', 'district': 'Nam Trực', 'ward': 'Nam Hải'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 489/24A/18 Huỳnh Văn Bánh Phường 13, Phú Nhuận, TP. Hồ Chí Minh
+Normalized: huynh van banh phuong phu nhuan thanh pho ho chi minh
+Output: {'district': 'Phú Nhuận', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Phú Nhuận', 'ward': '13'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 285 B/1A Bình Gĩa Phường 8,Vũng Tàu,Bà Rịa - Vũng Tàu
+Normalized: b binh gia phuong tau ba ria vung tau
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': '8'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Thới Hòa A Thị trấn Cờ Đỏ, Cờ Đỏ, Cần Thơ
+Normalized: thoi hoa a thi tran co do co do can tho
+Output: {'district': 'Cờ Đỏ', 'ward': '', 'province': 'Cần Thơ'}
+Expected: {'province': 'Cần Thơ', 'district': 'Cờ Đỏ', 'ward': 'Cờ Đỏ'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: xã Minh Lãng, huyện Vũ Thư, tỉnh Thái Bình
+Normalized: xa minh lang huyen vu thu tinh thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'province': 'Thái Bình', 'district': 'Vũ Thư', 'ward': 'Minh Lãng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Tân Bình Huyện Như Xuân, Thanh Hoá
+Normalized: xa tan binh huyen nhu xuan thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Như Xuân', 'ward': 'Tân Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: KP Phước Trung Thị trấn Đất Đỏ, Đất Đỏ, Bà Rịa - Vũng Tàu
+Normalized: khu pho phuoc trung thi tran dat do dat do ba ria vung tau
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Đất Đỏ', 'ward': 'Đất Đỏ'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 55/30 Nguyễn - Thượng Hiền,P5,BT, TP. Hồ Chí Minh
+Normalized: nguyen thuong hien phuong thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Bình Thạnh', 'ward': '5'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 290 Tùng Thiện- Vương,P.13, Quận 8, TP. Hồ Chí Minh.
+Normalized: tung thien vuong phuong quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '8', 'ward': '13'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tổ 5A2, KP5 TT. Trảng Bom, Trảng Bom, Đồng Nai
+Normalized: to khu pho thi tran trang bom trang bom dong nai
+Output: {'district': 'Trảng Bom', 'ward': '', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Trảng Bom', 'ward': 'Trảng Bom'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: 8 Trịnh Văn Cấn P.C-Ô-Lãnh, Q.1, TP. Hồ Chí Minh
+Normalized: trinh van can phuong c o lanh quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Bản U Gia Huổi Luông, Phong Thổ, Lai Châu
+Normalized: ban u gia huoi luong phong tho lai chau
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'province': 'Lai Châu', 'district': 'Phong Thổ', 'ward': 'Huổi Luông'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Khu phố Nam Tân, TT Thuận Nam, Hàm Thuận Bắc, Bình Thuận.
+Normalized: khu pho nam tan thi tran thuan nam ham thuan bac binh thuan
+Output: {'district': 'Bắc Bình', 'ward': '', 'province': 'Bình Thuận'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Sơn Hà Nho Quan, Ninh Bình
+Normalized: son ha nho quan ninh binh
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'province': 'Ninh Bình', 'district': 'Nho Quan', 'ward': 'Sơn Hà'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Nguyên Bình Huyện Tĩnh Gia, Thanh Hoá
+Normalized: xa nguyen binh huyen tinh gia thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Nguyên Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Hoằng Minh, Hoằng Hóa Thanh Hóa
+Normalized: hoang minh hoang hoa thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Liên Bình, Hải Bình Tĩnh Gia, Thanh Hóa
+Normalized: lien binh hai binh tinh gia thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Hải Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 249,KP.2,Tân mai,Biên Hòa, Đồng Nai
+Normalized: mai bien hoa dong nai
+Output: {'district': 'Biên Hòa', 'ward': '', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Tân Mai'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tân Trung Tân Thành, Tân Châu, Tây Ninh
+Normalized: tan trung tan thanh tan chau tay ninh
+Output: {'district': 'Tây Ninh', 'ward': 'Thạnh Tân', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Tân Châu', 'ward': 'Tân Thành'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Số 43/7 Nguyễn Huệ, P.Sao Đỏ, TX.Chí Linh, Hải Dương
+Normalized: so nguyen hue phuong sao do thi xa chi linh hai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'province': 'Hải Dương', 'district': 'Chí Linh', 'ward': 'Sao Đỏ'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 24/98C, Phố Hữu Nghị Xuân Khanh, Sơn Tây, Hà Nội
+Normalized: pho huu nghi xuan khanh son tay ha noi
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Xuân Khanh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tổ 2, Khu phố 2, Phường Long Thủy, Phước Long, Bình Phước.
+Normalized: to khu pho phuong long thuy phuoc long binh phuoc
+Output: {'district': '', 'ward': '', 'province': 'Bình Phước'}
+Expected: {'province': 'Bình Phước', 'district': 'Phước Long', 'ward': 'Long Thủy'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 55/21/1 Khu phố 2, Thới An Quận 12, TP. Hồ Chí Minh
+Normalized: khu pho thoi an quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '12', 'ward': 'Thới An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thạch Bình, Thạch Thành Thanh Hóa
+Normalized: thach binh thach thanh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'province': 'Thanh Hóa', 'district': 'Thạch Thành', 'ward': 'Thạch Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: - Khu B Chu Hoà, Việt HhiPhú Thọ
+Normalized: khu b chu hoa viet hhiphu tho
+Output: {'district': '', 'ward': '', 'province': 'Phú Thọ'}
+Expected: {'province': '', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thôn Am, xã Xuân Hương, Lạng Giang, Bắc Giang.
+Normalized: thon am xa xuan huong lang giang bac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'province': 'Bắc Giang', 'district': 'Lạng Giang', 'ward': 'Xuân Hương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Số 7/Q3, KPI, Phường Long Bình Tân, Tp Biên Hoà, Đồng Nai.
+Normalized: so kpi phuong long binh tan thanh pho bien hoa dong nai
+Output: {'district': 'Biên Hòa', 'ward': 'Long Bình', 'province': 'Đồng Nai'}
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: A:12A.21BlockA C/c BCA,P.AnKhánh,TP.Thủ Đức, TP. HCM
+Normalized: a c c bca phuong ankhanh thanh pho thu duc thanh pho hcm
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Thủ Đức', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: L10C12 Hẻm 90, Ng, Bỉnh Khiêm, TP. Rạch Giá, Kiên Giang
+Normalized: l hem nguyen binh khiem thanh pho rach gia kien giang
+Output: {'district': 'Rạch Giá', 'ward': '', 'province': 'Kiên Giang'}
+Expected: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thôn Lý Viên Bắc Lý, Hiệp Hòa, Bắc Giang
+Normalized: thon ly vien bac ly hiep hoa bac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'province': 'Bắc Giang', 'district': 'Hiệp Hòa', 'ward': 'Bắc Lý'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 51 Phạm Ngũ Lão, Lê Lợi Sơn Tây, Hà Nội
+Normalized: pham ngu lao le loi son tay ha noi
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'province': 'Hà Nội', 'district': 'Sơn Tây', 'ward': 'Lê Lợi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Mỹ Phú 5 Tường Lộc, Tam Bình, Vĩnh Long
+Normalized: my phu tuong loc tam binh vinh long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Tường Lộc'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: thôn 2 Suối Rao, Châu Đức, Bà Rịa - Vũng Tàu
+Normalized: thon suoi rao chau duc ba ria vung tau
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Châu Đức', 'ward': 'Suối Rao'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 14.5 Block A2, The Mansion, ĐS 7,KDC 13E,Ấp 5,PP,BC, TP.HCM
+Normalized: block a the mansion ds thanh pho hcm
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Yên Sơn, Huyện Lục Nam, Tỉnh Bắc Giang
+Normalized: xa yen son huyen luc nam tinh bac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'province': 'Bắc Giang', 'district': 'Lục Nam', 'ward': 'Yên Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 161/18A Cô Giang, Cô Giang Quận 1, TP. Hồ Chí Minh
+Normalized: co giang co giang quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '1', 'ward': 'Cô Giang'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Tân Thắng Tân An Hội, Mang Thít, Vĩnh Long
+Normalized: tan thang tan an hoi mang thit vinh long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Mang Thít', 'ward': 'Tân An Hội'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Phố Tân Mỹ Thị trấn Me, Gia Viễn, Ninh Bình
+Normalized: pho tan my thi tran me gia vien ninh binh
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'province': 'Ninh Bình', 'district': 'Gia Viễn', 'ward': 'Me'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Trung Môn Yên Sơn - Tuyên Quang
+Normalized: trung mon yen son tuyen quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Trung Môn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 31B Sư Vạn Hạnh, Phường 3 Quận 10, TP. Hồ Chí Minh
+Normalized: su van hanh phuong quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '10', 'ward': '3'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 191A Nguyễn Thị Định An Phú, Quận 2, Tp Hồ Chí Minh
+Normalized: nguyen thi dinh an phu quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '2', 'ward': 'An Phú'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tường Ngãi Nhơn Bình,Trà Ôn, Vĩnh Long
+Normalized: tuong ngai nhon binh tra on vinh long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Trà Ôn', 'ward': 'Nhơn Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Số 1410 Đường 30/4, Phường 12, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu.
+Normalized: so duong phuong thanh pho vung tau ba ria vung tau
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Bà Rịa - Vũng Tàu', 'district': 'Vũng Tàu', 'ward': '12'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: F2B PhanVănTr P.5,GV,TP.Hồ Chí Minh
+Normalized: phuong phanvantr phuong chi minh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Chiêu Yên Yên Sơn, Tuyên Quang
+Normalized: chieu yen yen son tuyen quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Chiêu Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Ấp Thạnh Hiệp Hòa Thạnh, Tam Bình, Vĩnh Long
+Normalized: ap thanh hiep hoa thanh tam binh vinh long
+Output: {'district': 'Vĩnh Long', 'ward': '', 'province': 'Vĩnh Long'}
+Expected: {'province': 'Vĩnh Long', 'district': 'Tam Bình', 'ward': 'Hòa Thạnh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 7/3/4/16 Thành Thái Phường 14, Quận 10, TP. Hồ Chí Minh
+Normalized: thanh thai phuong quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '10', 'ward': '14'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Ấp Bùng Binh, Hưng Thuận, Trảng Bàng, Tây Ninh
+Normalized: ap bung binh hung thuan trang bang tay ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'province': 'Tây Ninh', 'district': 'Trảng Bàng', 'ward': 'Hưng Thuận'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Quang Xá, Quang Hưng, Phù Cừ, Hưng Yên
+Normalized: quang xa quang hung phu cu hung yen
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'province': 'Hưng Yên', 'district': 'Phù Cừ', 'ward': 'Quang Hưng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thôn Lùng Bẻ Kim Linh, Vị Xuyên, Hà Giang
+Normalized: thon lung be kim linh vi xuyen ha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Kim Linh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Krông Búk Huyện Krông Păc, Đắk Lắk
+Normalized: xa krong buk huyen krong pac dak lak
+Output: {'district': 'Krông Búk', 'ward': '', 'province': 'Đắk Lắk'}
+Expected: {'province': 'Đắk Lắk', 'district': 'Krông Pắc', 'ward': 'KRông Búk'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: 820/12 Hậu Giang, Phường 12 Quận 6, TP. Hồ Chí Minh
+Normalized: hau giang phuong quan thanh pho ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'province': 'Hồ Chí Minh', 'district': '6', 'ward': '12'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Liên Minh,,TỉnhThái Nguyên
+Normalized: lien minh tinhthai nguyen
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': '', 'ward': 'Liên Minh', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Gia Viễn, T. Ninh Binh
+Normalized: gia vien tinh ninh binh
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'district': 'Gia Viễn', 'ward': '', 'province': 'Ninh Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Chợ Chu, , T Thái Nguyên
+Normalized: cho chu tinh thai nguyen
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': '', 'ward': 'Chợ Chu', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Hải Ba  Hải Lăng 
+Normalized: hai ba hai lang
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Hải Lăng', 'ward': 'Hải Ba', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Huyện Cẩm Thủy Tỉnh Thanh Hóa
+Normalized: huyen cam thuy tinh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Cẩm Thủy', 'ward': '', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phường Phú Lợi  TBình Dương
+Normalized: phuong phu loi tbinh duong
+Output: {'district': '', 'ward': '', 'province': 'Bình Dương'}
+Expected: {'district': '', 'ward': 'Phú Lợi', 'province': 'Bình Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Tự Lạn, HuyệnViệt Yên, T Bắc Giang
+Normalized: tu lan huyenviet yen tinh bac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Việt Yên', 'ward': 'Tự Lạn', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Bình Hiệp,H.Bình Sơn,TỉnhQuảng Ngãi
+Normalized: binh hiep huyen binh son tinhquang ngai
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Bình Sơn', 'ward': 'Bình Hiệp', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Trà Sơn,Huyện Trà Bồng,T.Quảng mNgãi
+Normalized: xa tra son huyen tra bong tinh quang mngai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Trà Bồng', 'ward': 'Trà Sơn', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Van Điểm, H hường TLín, Thành phốHa Nội
+Normalized: van diem huyen huong tlin thanh phoha noi
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': 'Thường Tín', 'ward': 'Vạn Điểm', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thị Trấn Yên Bình  Yên Bình T Yên Bái
+Normalized: thi tran yen binh yen binh tinh yen bai
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Yên Bình', 'ward': 'Yên Bình', 'province': 'Yên Bái'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XThạnh Đức, HGò Dầ6u, T Tây Ninh
+Normalized: xthanh duc hgo da tinh tay ninh
+Output: {'district': 'Tây Ninh', 'ward': '', 'province': 'Tây Ninh'}
+Expected: {'district': 'Gò Dầu', 'ward': 'Thạnh Đức', 'province': 'Tây Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Thài Phìn Tủng, Huyện ĐồGg Van,  Hà Gxiang
+Normalized: xa thai phin tung huyen dogg van ha gxiang
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đồng Văn', 'ward': 'Thài Phìn Tủng', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãBù Gia Mập,,T Bình Phước
+Normalized: xabu gia map tinh binh phuoc
+Output: {'district': 'Bù Gia Mập', 'ward': '', 'province': 'Bình Phước'}
+Expected: {'district': '', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Mỹ Lương Yên Lập 
+Normalized: xa my luong yen lap
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Yên Lập', 'ward': 'Mỹ Lương', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: ,H.Nqm Đàn, nghệ An
+Normalized: huyen nqm dan nghe an
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': 'Nam Đàn', 'ward': '', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , H Nam Trực, Nam Đị8nh
+Normalized: huyen nam truc nam di
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nam Trực', 'ward': '', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Tam GiangNăm CănT.Cà Mau
+Normalized: tam giangnam cant ca mau
+Output: {'district': 'Cà Mau', 'ward': '', 'province': 'Cà Mau'}
+Expected: {'district': 'Năm Căn', 'ward': 'Tam Giang', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã La Dêê  Quảng Nam
+Normalized: xa la dee quang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'La Dêê', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XTân Thạnh, hAn Minh 
+Normalized: xtan thanh han minh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'An Minh', 'ward': 'Tân Thạnh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Cam Bình, Thành FhốCam Rah,  Khánh Hòa
+Normalized: xa cam binh thanh fhocam rah khanh hoa
+Output: {'district': '', 'ward': '', 'province': 'Khánh Hòa'}
+Expected: {'district': 'Cam Ranh', 'ward': 'Cam Bình', 'province': 'Khánh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.UThạnh Lợi  TỉnhLong An
+Normalized: xa uthanh loi tinhlong an
+Output: {'district': '', 'ward': '', 'province': 'Long An'}
+Expected: {'district': '', 'ward': 'Thạnh Lợi', 'province': 'Long An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Minh Tân,h.Lưng Tai,
+Normalized: minh tan huyen lung tai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lương Tài', 'ward': 'Minh Tân', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãQuỳn1 Lâm, H. Quỳnh Phụ,  Thai Bình
+Normalized: xaquyn lam huyen quynh phu thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Lâm', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Nà Tấu, , T.Điện Biên
+Normalized: xa na tau tinh dien bien
+Output: {'district': 'Điện Biên', 'ward': '', 'province': 'Điện Biên'}
+Expected: {'district': '', 'ward': 'Nà Tấu', 'province': 'Điện Biên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Hiep Tung Huyện Năm Căn T.Cà Mau
+Normalized: xa hiep tung huyen nam can tinh ca mau
+Output: {'district': 'Cà Mau', 'ward': '', 'province': 'Cà Mau'}
+Expected: {'district': 'Năm Căn', 'ward': 'Hiệp Tùng', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Yên Bình, H fHữu Lũng, Lạng Sơn
+Normalized: yen binh huyen fhuu lung lang son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': 'Hữu Lũng', 'ward': 'Yên Bình', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  tPPhổ Yên Tỉnh Thái Nguyên
+Normalized: tppho yen tinh thai nguyen
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': 'Phổ Yên', 'ward': '', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Hà Hồi H. Thường Tin TPHàNội
+Normalized: xa ha hoi huyen thuong tin tphanoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thường Tín', 'ward': 'Hà Hồi', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Huyện Hiêp Hòa Bắc Giang
+Normalized: huyen hiep hoa bac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Hiệp Hòa', 'ward': '', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:   Đông Giang T Quảyg Nm
+Normalized: dong giang tinh quayg nm
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Giang', 'ward': '', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Sơn Thủy T Quảng Bình
+Normalized: son thuy tinh quang binh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': '', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Hoằng Lưu, Hoăng Hóa, TỉnhThanh Hóa
+Normalized: xa hoang luu hoang hoa tinhthanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Hoằng Hóa', 'ward': 'Hoằng Lưu', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xan Tiến, H. An Lão, 
+Normalized: xan tien huyen an lao
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'An Lão', 'ward': 'An Tiến', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XGia Hội,h.Văn Chấn,TỉnhYênKBái
+Normalized: xgia hoi huyen van chan tinhyenkbai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Văn Chấn', 'ward': 'Gia Hội', 'province': 'Yên Bái'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Tam Văn  xLang Chánh  Thanh Hóa
+Normalized: tam van xlang chanh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Lang Chánh', 'ward': 'Tam Văn', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. HoDng Quỳ,,9hanh Hóa
+Normalized: xa hodng quy hoa
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Hoằng Quỳ', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãBình Chau,  Bình Sơn, Tỉnh Quảng Ngãi
+Normalized: xabinh chau binh son tinh quang ngai
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Bình Sơn', 'ward': 'Bình Châu', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Tân Tiến,H.Đồng Phú,
+Normalized: xa tan tien huyen dong phu
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đồng Phú', 'ward': 'Tân Tiến', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: FHim Lam   Điện Biê
+Normalized: fhim lam dien bie
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Him Lam', 'province': 'Điện Biên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  BảIn Sen H Mường Khương T5Lào Cai
+Normalized: bain sen huyen muong khuong tinh cai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mường Khương', 'ward': 'Bản Sen', 'province': 'Lào Cai'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Phong Quang, HKuyệnVị Xuyên, Tỉnh Hà Giang
+Normalized: xa phong quang hkuyenvi xuyen tinh ha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Vị Xuyên', 'ward': 'Phong Quang', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãV Ninh, Kiên Xương,
+Normalized: xav ninh kien xuong
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Kiến Xương', 'ward': 'Vũ Ninh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  TP Biên Hòa TỉnhĐyng Nai
+Normalized: thanh pho bien hoa tinhdyng nai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Biên Hòa', 'ward': '', 'province': 'Đồng Nai'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X. Trà DVưong Bắc Trà My TQuảg Nam
+Normalized: xa tra dvuong bac tra my tquag nam
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bắc Trà My', 'ward': 'Trà Dương', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  H.Bắc Mê TỉnhHà Giang
+Normalized: huyen bac me tinhha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Bắc Mê', 'ward': '', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Thiết Kế,H.Bá Thước,
+Normalized: xa thiet ke huyen ba thuoc
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bá Thước', 'ward': 'Thiết Kế', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phưng Khâm Thiên Quận Đ.Đa T.Phố HàNội
+Normalized: phung kham thien quan d da tinh pho hanoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đống Đa', 'ward': 'Khâm Thiên', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Quỳnh Nuyên,,T. Thái Bình
+Normalized: xa quynh nuyen tinh thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': '', 'ward': 'Quỳnh Nguyên', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XVnh Hung, , T.Thanh Hóa
+Normalized: xvnh hung tinh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Vĩnh Hùng', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Tăng Thanh, H Yên Thành, 
+Normalized: xa tang thanh huyen yen thanh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Yên Thành', 'ward': 'Tăng Thành', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãTrung Lập,  Vĩnh Bảo,7 
+Normalized: xatrung lap vinh bao
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Vĩnh Bảo', 'ward': 'Trung Lập', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phường Ngoc Thụy  Thành phốHà Nội
+Normalized: phuong ngoc thuy thanh phoha noi
+Output: {'district': '', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': '', 'ward': 'Ngọc Thụy', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Huyện Maỹ Lộc, TỉnhD Nam Định
+Normalized: huyen may loc tinhd nam dinh
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': 'Mỹ Lộc', 'ward': '', 'province': 'Nam Định'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X.Yên Lạc HuyệnNhu Thanh Tỉnh Thanh Hóa
+Normalized: xa yen lac huyennhu thanh tinh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Như Thanh', 'ward': 'Yên Lạc', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: TT Qu7 Nhất,,Tỉnh Nam Định
+Normalized: thi tran qu nhat tinh nam dinh
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': '', 'ward': 'Quỹ Nhất', 'province': 'Nam Định'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: QX.Tân Hưng Tây, Ph8 Tân,
+Normalized: qx tan hung tay ph tan
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phú Tân', 'ward': 'Tân Hưng Tây', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Huyện Cẩm Thủy, T.Thanh Hóca
+Normalized: huyen cam thuy tinh thanh hoca
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Cẩm Thủy', 'ward': '', 'province': 'Thanh Hóa'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X.Phong Dụ, , Quảng Ninh
+Normalized: xa phong du quang ninh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'district': '', 'ward': 'Phong Dụ', 'province': 'Quảng Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãPhú Hưng  TBến tre
+Normalized: xaphu hung tben tre
+Output: {'district': 'Bến Tre', 'ward': 'Phú Hưng', 'province': 'Bến Tre'}
+Expected: {'district': '', 'ward': 'Phú Hưng', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XAn Thủy Huyện Lệe Thủy TQuảng Bình
+Normalized: xan thuy huyen lee thuy tquang binh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': 'Lệ Thủy', 'ward': 'An Thủy', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XBình PhúN  Càng Long, T.u trà Vinh
+Normalized: xbinh phun cang long tinh u tra vinh
+Output: {'district': 'Trà Vinh', 'ward': '', 'province': 'Trà Vinh'}
+Expected: {'district': 'Càng Long', 'ward': 'Bình Phú', 'province': 'Trà Vinh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XHòa Bqc, HDi Linh, 
+Normalized: xhoa bqc hdi linh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Di Linh', 'ward': 'Hòa Bắc', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Cộng Hòa,,TỉnhHaOi Dương
+Normalized: cong hoa tinhhaoi duong
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Cộng Hòa', 'province': 'Hải Dương'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Đai TanHuyện Đại ộc,TỉnhQuảng Nam
+Normalized: dai tanhuyen dai oc tinhquang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Đại Lộc', 'ward': 'Đại Tân', 'province': 'Quảng Nam'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input:  HBảo Lâm 8 Cao Bằng
+Normalized: hbao lam cao bang
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': 'Bảo Lâm', 'ward': '', 'province': 'Cao Bằng'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X. Sin Suối Hồ HPhong Thổ t Lai Châu
+Normalized: xa sin suoi ho hphong tho tinh lai chau
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'district': 'Phong Thổ', 'ward': 'Sin Suối Hồ', 'province': 'Lai Châu'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input:  An Lowng Phú Giáo TBinh Dương
+Normalized: an lowng phu giao tbinh duong
+Output: {'district': 'Phú Giáo', 'ward': '', 'province': 'Bình Dương'}
+Expected: {'district': 'Phú Giáo', 'ward': 'An Long', 'province': 'Bình Dương'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: XKHoan Sơn,TiênDu,Tỉnhbac Ninh
+Normalized: xkhoan son tiendu tinhbac ninh
+Output: {'district': 'Bắc Ninh', 'ward': '', 'province': 'Bắc Ninh'}
+Expected: {'district': 'Tiên Du', 'ward': 'Hoàn Sơn', 'province': 'Bắc Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Hải An  Hải Lăng TQdung trị
+Normalized: hai an hai lang tqdung tri
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Hải Lăng', 'ward': 'Hải An', 'province': 'Quảng Trị'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thị trấn Hai Riêng H Sông Hinh 
+Normalized: thi tran hai rieng huyen song hinh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Sông Hinh', 'ward': 'Hai Riêng', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Diễn Thành Huyện Diên Châu 
+Normalized: xa dien thanh huyen dien chau
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Diễn Châu', 'ward': 'Diễn Thành', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: ,Bảo Lâ.,Tỉnh Cao Bằng
+Normalized: bao la tinh cao bang
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': 'Bảo Lâm', 'ward': '', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Chê La,,T.Hà GianZ
+Normalized: xa che la tinh ha gianz
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Chế Là', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Hôno Sỹ  Tỉnh Cao Bằng
+Normalized: hono sy tinh cao bang
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': '', 'ward': 'Hồng Sỹ', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Hành Tín Tây  T.Quảng Ngãi
+Normalized: xa hanh tin tay tinh quang ngai
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': '', 'ward': 'Hành Tín Tây', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F An lac Chí Linh Tỉnh Hải Dương
+Normalized: phuong an lac chi linh tinh hai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Chí Linh', 'ward': 'An Lạc', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Hòa Lợi,, Trà vinh
+Normalized: hoa loi tra vinh
+Output: {'district': 'Trà Vinh', 'ward': '', 'province': 'Trà Vinh'}
+Expected: {'district': '', 'ward': 'Hòa Lợi', 'province': 'Trà Vinh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phường Hiệ An, T.X.Kinh Môn, TỉnhHải Dương
+Normalized: phuong hie an tinh xa kinh mon tinhhai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Kinh Môn', 'ward': 'Hiệp An', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Trịnh Tường H Bát Xát 
+Normalized: xa trinh tuong huyen bat xat
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bát Xát', 'ward': 'Trịnh Tường', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãChiềng Mu5ng  T.stn la
+Normalized: xachieng mu tinh stn la
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Chiềng Mung', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Fmễ Trì, Nam Từ Liêm, Thành phố HN
+Normalized: fme tri nam tu liem thanh pho hn
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nam Từ Liêm', 'ward': 'Mễ Trì', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P4 T.Ph9ốĐông Hà 
+Normalized: phuong tinh ph ha
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hà', 'ward': '4', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F. Trần Hưng Đao,Phủ Ly,TỉnhH  Nam
+Normalized: phuong tran hung dao phu ly tinhh nam
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phủ Lý', 'ward': 'Trần Hưng Đạo', 'province': 'Hà Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tông Lạnh H.Thuận Chru TSơn La
+Normalized: tong lanh huyen thuan chru tson la
+Output: {'district': 'Sơn La', 'ward': '', 'province': 'Sơn La'}
+Expected: {'district': 'Thuận Châu', 'ward': 'Tông Lạnh', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  T.PhôSông Công t. Thái Nguyên
+Normalized: tinh phosong cong tinh thai nguyen
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': 'Sông Công', 'ward': '', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F.07, Q6, 
+Normalized: phuong quan
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '6', 'ward': '07', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P.Xuân Lam, Thuận Thành, T.Bắc Ninh
+Normalized: phuong xuan lam thuan thanh tinh bac ninh
+Output: {'district': 'Bắc Ninh', 'ward': '', 'province': 'Bắc Ninh'}
+Expected: {'district': 'Thuận Thành', 'ward': 'Xuân Lâm', 'province': 'Bắc Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Long Thắng, Huyn Lai ung, 
+Normalized: long thang huyn lai ung
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lai Vung', 'ward': 'Long Thắng', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Chi Lăng,H Chi Lăng,Tỉnh Lạng5 Sơn
+Normalized: chi lang huyen chi lang tinh lang son
+Output: {'district': 'Lạng Sơn', 'ward': 'Chi Lăng', 'province': 'Lạng Sơn'}
+Expected: {'district': 'Chi Lăng', 'ward': 'Chi Lăng', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Bằng Lng,,T.Bắc Kạn
+Normalized: bang lng tinh bac kan
+Output: {'district': 'Bắc Kạn', 'ward': '', 'province': 'Bắc Kạn'}
+Expected: {'district': '', 'ward': 'Bằng Lũng', 'province': 'Bắc Kạn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Huyệntân biên T.TDy Ninh
+Normalized: huyentan bien tinh tdy ninh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Tân Biên', 'ward': '', 'province': 'Tây Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  HuyệnThanh Miện Tỉnh Hải Dương
+Normalized: huyenthanh mien tinh hai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Thanh Miện', 'ward': '', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Tân An, HuyệnThnh Hà, 
+Normalized: xa tan an huyenthnh ha
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thanh Hà', 'ward': 'Tân An', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãtrBung Thanh,,TThanh Hóa
+Normalized: xatrbung thanh tthanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Trung Thành', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: vĩnh Hưng, , Long An
+Normalized: vinh hung long an
+Output: {'district': 'Vĩnh Hưng', 'ward': '', 'province': 'Long An'}
+Expected: {'district': '', 'ward': 'Vĩnh Hưng', 'province': 'Long An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phường 04,,Thành phốHồ Chi Minh
+Normalized: phuong phoho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'district': '', 'ward': '04', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Nâm Ntừ  Nậm Pồ 
+Normalized: xa nam ntu nam po
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nậm Pồ', 'ward': 'Nậm Nhừ', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Châu Thuận7  TNghệ An
+Normalized: xa chau thuan tnghe an
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': '', 'ward': 'Châu Thuận', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Cẩm Lương HCẩm Thủa T. Thanh Hóa
+Normalized: cam luong hcam thua tinh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Cẩm Thủy', 'ward': 'Cẩm Lương', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: ,HPhú Bình, thái Nguyên
+Normalized: hphu binh thai nguyen
+Output: {'district': 'Thái Nguyên', 'ward': '', 'province': 'Thái Nguyên'}
+Expected: {'district': 'Phú Bình', 'ward': '', 'province': 'Thái Nguyên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phường Hoài Hảo,T.Xã.Hoai Nhơn,TBình Đinh
+Normalized: phuong hoai hao tinh xa hoai nhon tbinh dinh
+Output: {'district': '', 'ward': '', 'province': 'Bình Định'}
+Expected: {'district': 'Hoài Nhơn', 'ward': 'Hoài Hảo', 'province': 'Bình Định'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Hướng Hiệp  Đa Krông T Quảng TrZ
+Normalized: huong hiep da krong tinh quang trz
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đa Krông', 'ward': 'Hướng Hiệp', 'province': 'Quảng Trị'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P Ea Tam T.P Buôn Ma Thuột TỉnĐắk Llk
+Normalized: phuong ea tam tinh phuong buon ma thuot tindak llk
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Buôn Ma Thuột', 'ward': 'Ea Tam', 'province': 'Đắk Lắk'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F Tân Dân, T.Xã.Nghi Sơn, TỉnhThanh Hóa
+Normalized: phuong tan dan tinh xa nghi son tinhthanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Nghi Sơn', 'ward': 'Tân Dân', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XNam Cát, HuyệnNam đàn, 
+Normalized: xnam cat huyennam dan
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nam Đàn', 'ward': 'Nam Cát', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Vị Tân  Vị Than 
+Normalized: xa vi tan vi than
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Vị Thanh', 'ward': 'Vị Tân', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X My Thành Bac, HuyệnCai Lậy, 
+Normalized: xa my thanh bac huyencai lay
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Cai Lậy', 'ward': 'Mỹ Thành Bắc', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XCư Drămb H.Krông Bông 
+Normalized: xcu dramb huyen krong bong
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Krông Bông', 'ward': 'Cư Drăm', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Bình Hi, , T.Quảcg Nam
+Normalized: xa binh hi tinh quacg nam
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Bình Hải', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãNân Chính, H Ly Nhân, Tỉnh HaNam
+Normalized: xanan chinh huyen ly nhan tinh hanam
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lý Nhân', 'ward': 'Nhân Chính', 'province': 'Hà Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Khả cửu, H. Thanh Srn, 
+Normalized: kha cuu huyen thanh srn
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thanh Sơn', 'ward': 'Khả Cửu', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Đông Hòa,Tỉnh Phú yn
+Normalized: dong hoa tinh phu yn
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hòa', 'ward': '', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  HuyệnĐắk Tô T. KonTum
+Normalized: huyendak to tinh kontum
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đắk Tô', 'ward': '', 'province': 'Kon Tum'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Thị Trấn Nông Trường Việt lâm,Vị Xuyen,Ha Giang
+Normalized: thi tran nong truong viet lam vi xuyen ha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Vị Xuyên', 'ward': 'Nông Trường Việt Lâm', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Q11, Hồ Chí Minh
+Normalized: quan ho chi minh
+Output: {'district': '', 'ward': '', 'province': 'Hồ Chí Minh'}
+Expected: {'district': '11', 'ward': '', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F.LoWng Binh, TpThủ Đưc, TPHCM
+Normalized: phuong lowng binh tpthu duc tphcm
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thủ Đức', 'ward': 'Long Bình', 'province': 'Hồ Chí Minh'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Xã Đông cường, h.Đông Hưng, 
+Normalized: xa dong cuong huyen dong hung
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hưng', 'ward': 'Đông Cường', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: XTrung Nghĩa, , THưng Yên
+Normalized: xtrung nghia thung yen
+Output: {'district': 'Hưng Yên', 'ward': 'Trung Nghĩa', 'province': 'Hưng Yên'}
+Expected: {'district': '', 'ward': 'Trung Nghĩa', 'province': 'Hưng Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Hải Minh,,N5am Định
+Normalized: xa hai minh n dinh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Hải Minh', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Bạch Lưu, H.Song Lô, Vĩnh PGhúc
+Normalized: bach luu huyen song lo vinh pghuc
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Sông Lô', 'ward': 'Bạch Lưu', 'province': 'Vĩnh Phúc'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Đề Thám  T.Lạng Sơn
+Normalized: xa de tham tinh lang son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': '', 'ward': 'Đề Thám', 'province': 'Lạng Sơn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: PhườngHà Mãn, T.X.Thuận Thành, 
+Normalized: phuongha man tinh xa thuan thanh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thuận Thành', 'ward': 'Hà Mãn', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xa Sơn Thy H. Le Thủy Tỉnh Quảng Bình
+Normalized: xa son thy huyen le thuy tinh quang binh
+Output: {'district': 'Lệ Thủy', 'ward': '', 'province': 'Quảng Bình'}
+Expected: {'district': 'Lệ Thủy', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: x. Nam Thai A, AZBiên,Tỉnh Kiên Giang
+Normalized: xa nam thai a azbien tinh kien giang
+Output: {'district': '', 'ward': '', 'province': 'Kiên Giang'}
+Expected: {'district': 'An Biên', 'ward': 'Nam Thái A', 'province': 'Kiên Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P. Quảng Thọ,T.P Sầm Swn,TY. thanh Hóa
+Normalized: phuong quang tho tinh phuong sam swn ty thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Sầm Sơn', 'ward': 'Quảng Thọ', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Đông Htòa Phu Yên
+Normalized: dong htoa phu yen
+Output: {'district': '', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Đông Hòa', 'ward': '', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Tam Amnh NZm  Núi Thành TQuảng Nam
+Normalized: tam amnh nzm nui thanh tquang nam
+Output: {'district': 'Núi Thành', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Núi Thành', 'ward': 'Tam Anh Nam', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Vân Du, , Phú Thọ
+Normalized: xa van du phu tho
+Output: {'district': '', 'ward': '', 'province': 'Phú Thọ'}
+Expected: {'district': '', 'ward': 'Vân Du', 'province': 'Phú Thọ'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: P. Phong CNốc Th,ị xãQuảng Yên t. Quảng Ninh
+Normalized: phuong phong cnoc th i xaquang yen tinh quang ninh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'district': 'Quảng Yên', 'ward': 'Phong Cốc', 'province': 'Quảng Ninh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.An Thuận, , TBến Tre
+Normalized: xa an thuan tben tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'district': '', 'ward': 'An Thuận', 'province': 'Bến Tre'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Nghi Sơ6n, T.X. Nghi Sơn, Thhanh Hóa
+Normalized: nghi so tinh xa nghi son thhanh hoa
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nghi Sơn', 'ward': 'Nghi Sơn', 'province': 'Thanh Hóa'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: , ThăngFBìh,T. Quảng Nam
+Normalized: thangfbih tinh quang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Thăng Bình', 'ward': '', 'province': 'Quảng Nam'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: TT Đạ Tẻh, , T. Lâm Đồng
+Normalized: thi tran da teh tinh lam dong
+Output: {'district': 'Đạ Tẻh', 'ward': '', 'province': 'Lâm Đồng'}
+Expected: {'district': '', 'ward': 'Đạ Tẻh', 'province': 'Lâm Đồng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: TT Hội An,,TAn Giang
+Normalized: thi tran hoi an tan giang
+Output: {'district': '', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': '', 'ward': 'Hội An', 'province': 'An Giang'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X. TErường Thịnh,h Ứng Hòa, Hà Nội
+Normalized: xa teruong thinh huyen ung hoa ha noi
+Output: {'district': 'Ứng Hòa', 'ward': '', 'province': 'Hà Nội'}
+Expected: {'district': 'Ứng Hòa', 'ward': 'Trường Thịnh', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.H Mỗ, Đan PhTượng,
+Normalized: xa huyen mo dan phtuong
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đan Phượng', 'ward': 'Hạ Mỗ', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Tiến Nông,H Trệu Sơn,T. Thanh Hóa
+Normalized: xa tien nong huyen treu son tinh thanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': 'Triệu Sơn', 'ward': 'Tiến Nông', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , HuyệnBình Sơn, TQuảng Ngãi
+Normalized: huyenbinh son tquang ngai
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Bình Sơn', 'ward': '', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Quang Tiếns6 Tân Yên, 
+Normalized: xa quang tiens tan yen
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Tân Yên', 'ward': 'Quang Tiến', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thị Trấn Kẻ Sặt H.Binh giang THải Dưong
+Normalized: thi tran ke sat huyen binh giang thai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Bình Giang', 'ward': 'Kẻ Sặt', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Lương Hòa,HuyệnBen Lức,
+Normalized: xa luong hoa huyenben luc
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bến Lức', 'ward': 'Lương Hòa', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Tân Son,hchợ QMới,
+Normalized: xa tan son hcho qmoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Chợ Mới', 'ward': 'Tân Sơn', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Quách Phẩm Bắc, , Cà Mzu
+Normalized: quach pham bac ca mzu
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Quách Phẩm Bắc', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Tvực Đạo, , Nam Định
+Normalized: xa tvuc dao nam dinh
+Output: {'district': 'Nam Định', 'ward': '', 'province': 'Nam Định'}
+Expected: {'district': '', 'ward': 'Trực Đạo', 'province': 'Nam Định'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thị trấn Tân Phong, , TThanh Hóa
+Normalized: thi tran tan phong tthanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Tân Phong', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Lộc Thah,T0P Bảo lộc,TLâm Đông
+Normalized: xa loc thah tinh bao loc tlam dong
+Output: {'district': 'Bảo Lộc', 'ward': '', 'province': 'Lâm Đồng'}
+Expected: {'district': 'Bảo Lộc', 'ward': 'Lộc Thanh', 'province': 'Lâm Đồng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Đương Hoa  TQuảng Ninh
+Normalized: xa duong hoa tquang ninh
+Output: {'district': '', 'ward': '', 'province': 'Quảng Ninh'}
+Expected: {'district': '', 'ward': 'Đường Hoa', 'province': 'Quảng Ninh'}
+Time: 0.0008s
+
+[2025-09-24 23:47:26] Input: xã Vạn Kim, HuyệnMỹ Đức, T.P HNội
+Normalized: xa van kim huyenmy duc tinh phuong hnoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mỹ Đức', 'ward': 'Vạn Kim', 'province': 'Hà Nội'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: XMiền Đồi,LaZc Sơn,
+Normalized: xmien doi lazc son
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lạc Sơn', 'ward': 'Miền Đồi', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Phu Mãn   HN
+Normalized: xa phu man hn
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Phú Mãn', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Mường Lèo H Sốp Cộp T Sơn ma
+Normalized: xa muong leo huyen sop cop tinh son ma
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Sốp Cộp', 'ward': 'Mường Lèo', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: ,  Mỹ Đức, HàNội
+Normalized: my duc hanoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mỹ Đức', 'ward': '', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XTâm Thsắng Cư Jút TỉnhĐắk Nông
+Normalized: xtam thsang cu jut tinhdak nong
+Output: {'district': 'Cư Jút', 'ward': '', 'province': 'Đắk Nông'}
+Expected: {'district': 'Cư Jút', 'ward': 'Tâm Thắng', 'province': 'Đắk Nông'}
+Time: 0.0018s
+
+[2025-09-24 23:47:26] Input: X.Hòa Trị Huzyen hú Hoa TPhú Yên
+Normalized: xa hoa tri huzyen hu hoa tphu yen
+Output: {'district': '', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Phú Hoà', 'ward': 'Hòa Trị', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XLa Sơn H. Binh lục 
+Normalized: xla son huyen binh luc
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bình Lục', 'ward': 'La Sơn', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F. Điện Nam Bắc, x TQuảng Nam
+Normalized: phuong dien nam bac xa tquang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'Điện Nam Bắc', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Bok Tới H Hoài Ân  Bìh Định
+Normalized: xa bok toi huyen hoai an bih dinh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Hoài Ân', 'ward': 'Bok Tới', 'province': 'Bình Định'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Bình Sa HuyệnThăng Bình 
+Normalized: binh sa huyenthang binh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Thăng Bình', 'ward': 'Bình Sa', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: ,H Bắc Son,TỉnhLạng Son
+Normalized: huyen bac son tinhlang son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': 'Bắc Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Time: 0.0017s
+
+[2025-09-24 23:47:26] Input: xTân Lập, H Vũ Thư, Thái bình
+Normalized: xtan lap huyen vu thu thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Vũ Thư', 'ward': 'Tân Lập', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Tinh Nhu Huyện Thanh Sơn Tỉnh Phú Tho
+Normalized: tinh nhu huyen thanh son tinh phu tho
+Output: {'district': 'Thanh Sơn', 'ward': '', 'province': 'Phú Thọ'}
+Expected: {'district': 'Thanh Sơn', 'ward': 'Tinh Nhuệ', 'province': 'Phú Thọ'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãGia Vượng, Gia Viễn, 
+Normalized: xagia vuong gia vien
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Gia Viễn', 'ward': 'Gia Vượng', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Hợp đức, , Tp Hải Phòng
+Normalized: hop duc thanh pho hai phong
+Output: {'district': '', 'ward': '', 'province': 'Hải Phòng'}
+Expected: {'district': '', 'ward': 'Hợp Đức', 'province': 'Hải Phòng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Thị trấnSông Đốc, , TnhCà Mau
+Normalized: thi transong doc tnhca mau
+Output: {'district': 'Cà Mau', 'ward': '', 'province': 'Cà Mau'}
+Expected: {'district': '', 'ward': 'Sông Đốc', 'province': 'Cà Mau'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Yên Phong  Tỉnh Bắc Kạn
+Normalized: xa yen phong tinh bac kan
+Output: {'district': 'Bắc Kạn', 'ward': '', 'province': 'Bắc Kạn'}
+Expected: {'district': '', 'ward': 'Yên Phong', 'province': 'Bắc Kạn'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P. Nhi Thu Thị xã Cửa Lò TNghệ An
+Normalized: phuong nhi thu thi xa cua lo tnghe an
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': 'Cửa Lò', 'ward': 'Nghi Thu', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F.Dịch Vọng  C/Giấy Thành phốHàNội
+Normalized: phuong dich vong c giay thanh phohanoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Cầu Giấy', 'ward': 'Dịch Vọng', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Ea Huar,HuyệnBuôn Đôn,
+Normalized: ea huar huyenbuon don
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Buôn Đôn', 'ward': 'Ea Huar', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Tân Thanh Huyện Lang Giang 
+Normalized: xa tan thanh huyen lang giang
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lạng Giang', 'ward': 'Tân Thanh', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Sơn Hv HSơn Hoa Tỉnh Phú Yên
+Normalized: xa son hv hson hoa tinh phu yen
+Output: {'district': 'Sơn Hòa', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Sơn Hòa', 'ward': 'Sơn Hội', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã Bản My H..Hoàng Su Phì T.Hà Giang
+Normalized: xa ban my huyen hoang su phi tinh ha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Hoàng Su Phì', 'ward': 'Bản Máy', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Công Hòa H.Kim Thành 
+Normalized: cong hoa huyen kim thanh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Kim Thành', 'ward': 'Cộng Hòa', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: XãChơ Chun, H NamiGiang, T.Quảng Nam
+Normalized: xacho chun huyen namigiang tinh quang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Nam Giang', 'ward': 'Chơ Chun', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Vô Tranh, hLục Nam, Bắc Giang
+Normalized: xa vo tranh hluc nam bac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Lục Nam', 'ward': 'Vô Tranh', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Bù Gia Map,H Bù Gia Mập,Bình Phước
+Normalized: bu gia map huyen bu gia map binh phuoc
+Output: {'district': 'Bù Gia Mập', 'ward': '', 'province': 'Bình Phước'}
+Expected: {'district': 'Bù Gia Mập', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:   Quỳ Châu T.NSghệ An
+Normalized: quy chau tinh nsghe an
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Quỳ Châu', 'ward': '', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  H.Văn Giang Tỉnh Hưng Yê0
+Normalized: huyen van giang tinh hung ye
+Output: {'district': '', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': 'Văn Giang', 'ward': '', 'province': 'Hưng Yên'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: x.Ba tiêu,  Ba Tơ, Quảng Ngãi
+Normalized: xa ba tieu ba to quang ngai
+Output: {'district': 'Quảng Ngãi', 'ward': '', 'province': 'Quảng Ngãi'}
+Expected: {'district': 'Ba Tơ', 'ward': 'Ba Tiêu', 'province': 'Quảng Ngãi'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Xã Tân Kiên Hbình Chánh Thành phôHôChíMinh
+Normalized: xa tan kien hbinh chanh thanh phohochiminh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bình Chánh', 'ward': 'Tân Kiên', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:   Chí Linh  Hải Dương
+Normalized: chi linh hai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Chí Linh', 'ward': '', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Tam Đồng,HuyệnMê Linh,T.Phw HàNoi
+Normalized: xa tam dong huyenme linh tinh phw hanoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mê Linh', 'ward': 'Tam Đồng', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  eăn Tiến, Yên Lạc, vĩnh P0húc
+Normalized: ean tien yen lac vinh phuong
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Yên Lạc', 'ward': 'Văn Tiến', 'province': 'Vĩnh Phúc'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: F. An Phú T.X. Tịnh Biên T.An Giang
+Normalized: phuong an phu tinh xa tinh bien tinh an giang
+Output: {'district': 'An Phú', 'ward': '', 'province': 'An Giang'}
+Expected: {'district': 'Tịnh Biên', 'ward': 'An Phú', 'province': 'An Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Cẩm Hoàng,,T. Hải Dươnwg
+Normalized: xa cam hoang tinh hai duonwg
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Cẩm Hoàng', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Cat Chánh,HuyệnPhù Cát,
+Normalized: xa cat chanh huyenphu cat
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phù Cát', 'ward': 'Cát Chánh', 'province': ''}
+Time: 0.0007s
+
+[2025-09-24 23:47:26] Input: Xã 7Sơn Hà HuyệnNho Quan Tinh Ninh Bình
+Normalized: xa ha huyennho quan tinh ninh binh
+Output: {'district': 'Ninh Bình', 'ward': '', 'province': 'Ninh Bình'}
+Expected: {'district': 'Nho Quan', 'ward': 'Sơn Hà', 'province': 'Ninh Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Mỹ Thạnh, HuyệnGiong Trôm, TỉnhBến Tre
+Normalized: xa my thanh huyengiong trom tinhben tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'district': 'Giồng Trôm', 'ward': 'Mỹ Thạnh', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xã C.hâu Minh, HHiệp Ha, TBắc Giang
+Normalized: xa c hau minh hhiep ha tbac giang
+Output: {'district': 'Bắc Giang', 'ward': '', 'province': 'Bắc Giang'}
+Expected: {'district': 'Hiệp Hòa', 'ward': 'Châu Minh', 'province': 'Bắc Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Xthịnh Vượng,A , TG.Cao băng
+Normalized: xthinh vuong a tg cao bang
+Output: {'district': 'Cao Bằng', 'ward': '', 'province': 'Cao Bằng'}
+Expected: {'district': '', 'ward': 'Thịnh Vượng', 'province': 'Cao Bằng'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Diên Thạnh,,T Khabnh Hòa
+Normalized: dien thanh tinh khabnh hoa
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Diên Thạnh', 'province': 'Khánh Hòa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Việt Hồng, , TrHà Giang
+Normalized: xa viet hong trha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': '', 'ward': 'Việt Hồng', 'province': 'Hà Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Đức Sơn Anh Sơn 
+Normalized: xa duc son anh son
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Anh Sơn', 'ward': 'Đức Sơn', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Điện Hồng,Thị xã Điện Bàn,t Quảng Nam
+Normalized: xa dien hong thi xa dien ban tinh quang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': 'Điện Bàn', 'ward': 'Điện Hồng', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Đứ Lợi,H Mộ Đức,TỉnhQuản Ngãi
+Normalized: du loi huyen mo duc tinhquan ngai
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Mộ Đức', 'ward': 'Đức Lợi', 'province': 'Quảng Ngãi'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Song Lộc H.Châu Thành 
+Normalized: xa song loc huyen chau thanh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Châu Thành', 'ward': 'Song Lộc', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X. Bản Nguyen,HuyệnLâm Thao,
+Normalized: xa ban nguyen huyenlam thao
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lâm Thao', 'ward': 'Bản Nguyên', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Phương Công,huyen Tiền Hải,T.Thái Bình
+Normalized: phuong cong huyen tien hai tinh thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Tiền Hải', 'ward': 'Phương Công', 'province': 'Thái Bình'}
+Time: 0.0007s
+
+[2025-09-24 23:47:26] Input: Xã Kiên Thành H Trấn Yên T.yên Bi
+Normalized: xa kien thanh huyen tran yen tinh yen bi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Trấn Yên', 'ward': 'Kiên Thành', 'province': 'Yên Bái'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: XThạch Xuâ,Thạch Hà,T. Hà Tĩnh
+Normalized: xthach xua thach ha tinh ha tinh
+Output: {'district': 'Hà Tĩnh', 'ward': 'Thạch Hạ', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Thạch Hà', 'ward': 'Thạch Xuân', 'province': 'Hà Tĩnh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Quận 1 T.P H.C.Minh
+Normalized: quan tinh phuong huyen c minh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '1', 'ward': '', 'province': 'Hồ Chí Minh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Sín Chéng,HuyệnSi Ma Cai,TỉnhLào Cai
+Normalized: sin cheng huyensi ma cai tinhlao cai
+Output: {'district': 'Lào Cai', 'ward': '', 'province': 'Lào Cai'}
+Expected: {'district': 'Si Ma Cai', 'ward': 'Sín Chéng', 'province': 'Lào Cai'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XDuy Hải  TQuảng Nam
+Normalized: xduy hai tquang nam
+Output: {'district': '', 'ward': '', 'province': 'Quảng Nam'}
+Expected: {'district': '', 'ward': 'Duy Hải', 'province': 'Quảng Nam'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: x. Văn Cẩs HuyệnHung Hà Tthái Bình
+Normalized: xa van cas huyenhung ha tthai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Hưng Hà', 'ward': 'Văn Cẩm', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Mường La,  sơn La
+Normalized: muong la son la
+Output: {'district': 'Sơn La', 'ward': '', 'province': 'Sơn La'}
+Expected: {'district': 'Mường La', 'ward': '', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: oã Bnh Ngọc,T.Phố Tuy Hoà,Tỉnhphú Yên
+Normalized: oa bnh ngoc tinh pho tuy hoa tinhphu yen
+Output: {'district': 'Tuy Hoà', 'ward': '', 'province': 'Phú Yên'}
+Expected: {'district': 'Tuy Hoà', 'ward': 'Bình Ngọc', 'province': 'Phú Yên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Chương Dương, HuyệnĐôngHưng, 
+Normalized: chuong duong huyendonghung
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Đông Hưng', 'ward': 'Chương Dương', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Nậm Tin  Diện Biên
+Normalized: nam tin dien bien
+Output: {'district': 'Điện Biên', 'ward': '', 'province': 'Điện Biên'}
+Expected: {'district': '', 'ward': 'Nậm Tin', 'province': 'Điện Biên'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  T.P Phan Rang-Tháp lhàm  Ninh Thuận
+Normalized: tinh phuong phan rang thap lham ninh thuan
+Output: {'district': '', 'ward': '', 'province': 'Ninh Thuận'}
+Expected: {'district': 'Phan Rang-Tháp Chàm', 'ward': '', 'province': 'Ninh Thuận'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Tân Phươc, Tin GJiang
+Normalized: tan phuoc tin gjiang
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Tân Phước', 'ward': '', 'province': 'Tiền Giang'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X An Đức, Huyên Ninh Giang, T.Hải Dương
+Normalized: xa an duc huyen ninh giang tinh hai duong
+Output: {'district': 'Hải Dương', 'ward': '', 'province': 'Hải Dương'}
+Expected: {'district': 'Ninh Giang', 'ward': 'An Đức', 'province': 'Hải Dương'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XTrung Kiên,,Tỉnh Vĩnh Phuúc
+Normalized: xtrung kien tinh vinh phuuc
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': '', 'ward': 'Trung Kiên', 'province': 'Vĩnh Phúc'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Đông Lâm2, Huyen Tiền Hải, T.Thái Bình
+Normalized: xa dong lam huyen tien hai tinh thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Tiền Hải', 'ward': 'Đông Lâm', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Đức Lĩnh,Vũ Quang,
+Normalized: duc linh vu quang
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Vũ Quang', 'ward': 'Đức Lĩnh', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: XQuỳnh Hôi, Quỳnh Phụ, Thái Bình
+Normalized: xquynh hoi quynh phu thai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Hội', 'province': 'Thái Bình'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input:  Yn phú, HBắc Mê, TỉnhV Hà giang
+Normalized: yn phu hbac me tinhv ha giang
+Output: {'district': 'Hà Giang', 'ward': '', 'province': 'Hà Giang'}
+Expected: {'district': 'Bắc Mê', 'ward': 'Yên Phú', 'province': 'Hà Giang'}
+Time: 0.0006s
+
+[2025-09-24 23:47:26] Input: Xuân Tân t.P Long Khánh 
+Normalized: xuan tan tinh phuong long khanh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Long Khánh', 'ward': 'Xuân Tân', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input:  H Ea H'leo T Đắk Lắk
+Normalized: huyen ea huyen'leo tinh dak lak
+Output: {'district': 'Lắk', 'ward': '', 'province': 'Đắk Lắk'}
+Expected: {'district': "Ea H'leo", 'ward': '', 'province': 'Đắk Lắk'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: Phú Đô HuyệnPhú Lươnz 
+Normalized: phu do huyenphu luonz
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Phú Lương', 'ward': 'Phú Đô', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Thái Ha, HBa Vì, T.pHNội
+Normalized: thai ha hba vi tinh phnoi
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Ba Vì', 'ward': 'Thái Hòa', 'province': 'Hà Nội'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Phước Hiệp  Tỉnh Bến Tre
+Normalized: xa phuoc hiep tinh ben tre
+Output: {'district': 'Bến Tre', 'ward': '', 'province': 'Bến Tre'}
+Expected: {'district': '', 'ward': 'Phước Hiệp', 'province': 'Bến Tre'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XHuy Hạ,  phù Yêu, T.Sơn La
+Normalized: xhuy ha phu yeu tinh son la
+Output: {'district': 'Sơn La', 'ward': '', 'province': 'Sơn La'}
+Expected: {'district': 'Phù Yên', 'ward': 'Huy Hạ', 'province': 'Sơn La'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: TTr.Quỳnh Côi,HQuỳnh Phụ,TThai Bình
+Normalized: ttr quynh coi hquynh phu tthai binh
+Output: {'district': 'Thái Bình', 'ward': '', 'province': 'Thái Bình'}
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Côi', 'province': 'Thái Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: , Nam Đông,T. T.T.H
+Normalized: nam dong tinh tinh tinh huyen
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nam Đông', 'ward': '', 'province': 'Thừa Thiên Huế'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Cam Nhân HuyệnYên Bình TYên Bái
+Normalized: cam nhan huyenyen binh tyen bai
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Yên Bình', 'ward': 'Cảm Nhân', 'province': 'Yên Bái'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X Đoàn đào,4 Phù Cừ,T.Hưng Yên
+Normalized: xa doan dao phu cu tinh hung yen
+Output: {'district': 'Hưng Yên', 'ward': '', 'province': 'Hưng Yên'}
+Expected: {'district': 'Phù Cừ', 'ward': 'Đoàn Đào', 'province': 'Hưng Yên'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: X. Hương Liên HuyệnHương Khê T Hà Tinh
+Normalized: xa huong lien huyenhuong khe tinh ha tinh
+Output: {'district': 'Hà Tĩnh', 'ward': '', 'province': 'Hà Tĩnh'}
+Expected: {'district': 'Hương Khê', 'ward': 'Hương Liên', 'province': 'Hà Tĩnh'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  bản HoJn huyện Tam Đường Tỉnh Lai Châu
+Normalized: ban hojn huyen tam duong tinh lai chau
+Output: {'district': 'Lai Châu', 'ward': '', 'province': 'Lai Châu'}
+Expected: {'district': 'Tam Đường', 'ward': 'Bản Hon', 'province': 'Lai Châu'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:  Điên Hải, Đông Hải, T bạc Liêu
+Normalized: dien hai dong hai tinh bac lieu
+Output: {'district': 'Bạc Liêu', 'ward': '', 'province': 'Bạc Liêu'}
+Expected: {'district': 'Đông Hải', 'ward': 'Điền Hải', 'province': 'Bạc Liêu'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X. Thanh Phongjc , Tỉnhthanh hóa
+Normalized: xa thanh phongjc tinhthanh hoa
+Output: {'district': 'Thanh Hóa', 'ward': '', 'province': 'Thanh Hóa'}
+Expected: {'district': '', 'ward': 'Thanh Phong', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input:   Bắc Trà My TỉnhQuảng NaHm
+Normalized: bac tra my tinhquang nahm
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Bắc Trà My', 'ward': '', 'province': 'Quảng Nam'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: xã Bình Trung,,TLạng Son
+Normalized: xa binh trung tlang son
+Output: {'district': 'Lạng Sơn', 'ward': '', 'province': 'Lạng Sơn'}
+Expected: {'district': '', 'ward': 'Bình Trung', 'province': 'Lạng Sơn'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Đông thanh AnE Minh T kien Giang
+Normalized: dong thanh ane minh tinh kien giang
+Output: {'district': '', 'ward': '', 'province': 'Kiên Giang'}
+Expected: {'district': 'An Minh', 'ward': 'Đông Thạnh', 'province': 'Kiên Giang'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Xã Tân Lĩnh, H.Lục Yên, TYên Bái
+Normalized: xa tan linh huyen luc yen tyen bai
+Output: {'district': 'Yên Bái', 'ward': '', 'province': 'Yên Bái'}
+Expected: {'district': 'Lục Yên', 'ward': 'Tân Lĩnh', 'province': 'Yên Bái'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: P Thủy Châu,T.X. hươngThủy,Thừa.t.Huế
+Normalized: phuong thuy chau tinh xa huongthuy thua tinh hue
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Hương Thủy', 'ward': 'Thủy Châu', 'province': 'Thừa Thiên Huế'}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: Thi trấ Ea. Knốp,H. Ea Kar,
+Normalized: thi tra ea knop huyen ea kar
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Ea Kar', 'ward': 'Ea Knốp', 'province': ''}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: X.Nga Thanh hyện Nga son TỉnhThanhQ Hóa
+Normalized: xa nga thanh hyen nga son tinhthanhq hoa
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Nga Sơn', 'ward': 'Nga Thanh', 'province': 'Thanh Hóa'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: ,Lệ Thủy,T quảng BìnKh
+Normalized: le thuy tinh quang binkh
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Lệ Thủy', 'ward': '', 'province': 'Quảng Bình'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: F Tân bình  dĩ An 
+Normalized: phuong tan binh di an
+Output: {'district': '', 'ward': '', 'province': ''}
+Expected: {'district': 'Dĩ An', 'ward': 'Tân Bình', 'province': ''}
+Time: 0.0010s
+
+[2025-09-24 23:47:26] Input: x2Trung Sơn,,TỉnhNghê An
+Normalized: xa son tinhnghe an
+Output: {'district': '', 'ward': '', 'province': 'Nghệ An'}
+Expected: {'district': '', 'ward': 'Trung Sơn', 'province': 'Nghệ An'}
+Time: 0.0000s
+
+[2025-09-24 23:47:26] Input: XãCôn Lôn,H Na Hang,TỉnhC Tuyên.Quang
+Normalized: xacon lon huyen na hang tinhc tuyen quang
+Output: {'district': 'Tuyên Quang', 'ward': '', 'province': 'Tuyên Quang'}
+Expected: {'district': 'Na Hang', 'ward': 'Côn Lôn', 'province': 'Tuyên Quang'}
+Time: 0.0000s
+
