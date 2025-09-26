@@ -20,7 +20,9 @@ def load_hierarchical_data(file_path, sheet_name="Sheet1"):
         "abbreviations": {
             "tp": "thành phố", "t": "tỉnh", "p": "phường", "q": "quận", "h": "huyện",
             "x": "xã", "tt": "thị trấn", "ng": "nguyễn", "kp": "khu phố", "f": "phường",
-            "t.x": "thị xã", "t.p": "thành phố", "tx": "thị xã"
+            "t.x": "thị xã", "t.p": "thành phố", "tx": "thị xã",
+            "q1": "quận 1", "q2": "quận 2", "q3": "quận 3",  # Added for common cases
+            "p1": "phường 1", "p2": "phường 2", "p3": "phường 3"
         }
     }
     
@@ -59,14 +61,14 @@ def load_hierarchical_data(file_path, sheet_name="Sheet1"):
 # Precompiled regex patterns
 regex_special_chars = re.compile(r'[\-\./,;:\s]+')  # Handle more separators
 regex_spaces = re.compile(r'\s+')
-regex_numbers = re.compile(r'\d+[^\s]*|bis')  # Remove "bis" (e.g., 284DBis)
+regex_numbers = re.compile(r'\d+[^\s]*|bis|tieu khu')  # Remove "bis", "tieu khu"
 regex_noise = re.compile(r'\b(j|xt)\b', re.IGNORECASE)  # Remove noise like "J", "XT"
 
 # Normalize input text
 def normalize_text(text):
     # Remove noise (e.g., "J", "XT")
     text = regex_noise.sub('', text)
-    # Remove numbers and attached characters
+    # Remove numbers, "bis", "tieu khu"
     text = regex_numbers.sub('', text)
     # Replace abbreviations (case-insensitive, word boundaries)
     text = text.lower()
@@ -94,8 +96,8 @@ def match_address(text):
     start_time = time.time()
     normalized_text = normalize_text(text)
     
-    # Initialize result in the correct order: district, ward, province
-    result = {"district": "", "ward": "", "province": ""}
+    # Initialize result in the correct order: province, district, ward
+    result = {"province": "", "district": "", "ward": ""}
     
     # Try exact matching for province
     for province_key, province_data in address_db["provinces"].items():
@@ -107,7 +109,7 @@ def match_address(text):
                     result["district"] = district_data["name"]
                     # Try exact matching for ward (only if ward exists in district)
                     for ward_key, ward_name in district_data["wards"].items():
-                        if ward_key in normalized_text and ward_key != district_key:  # Avoid district as ward
+                        if ward_key in normalized_text and ward_key != district_key:
                             result["ward"] = ward_name
                             break
                     break
@@ -118,8 +120,8 @@ def match_address(text):
         province_matches = process.extractOne(
             normalized_text,
             address_db["provinces"].keys(),
-            scorer=fuzz.token_sort_ratio,  # Better for typos
-            score_cutoff=85
+            scorer=fuzz.token_set_ratio,  # Better for typos and word order
+            score_cutoff=80  # Lowered to capture more matches
         )
         if province_matches:
             province_key = province_matches[0]
@@ -128,8 +130,8 @@ def match_address(text):
             district_matches = process.extractOne(
                 normalized_text,
                 address_db["provinces"][province_key]["districts"].keys(),
-                scorer=fuzz.token_sort_ratio,
-                score_cutoff=85
+                scorer=fuzz.token_set_ratio,
+                score_cutoff=80
             )
             if district_matches:
                 district_key = district_matches[0]
@@ -138,10 +140,10 @@ def match_address(text):
                 ward_matches = process.extractOne(
                     normalized_text,
                     address_db["provinces"][province_key]["districts"][district_key]["wards"].keys(),
-                    scorer=fuzz.token_sort_ratio,
-                    score_cutoff=85
+                    scorer=fuzz.token_set_ratio,
+                    score_cutoff=80
                 )
-                if ward_matches and ward_matches[0] != district_key:  # Avoid district as ward
+                if ward_matches and ward_matches[0] != district_key:
                     result["ward"] = address_db["provinces"][province_key]["districts"][district_key]["wards"][ward_matches[0]]
     
     elapsed_time = time.time() - start_time
@@ -187,3 +189,4 @@ print(f"Test Summary:")
 print(f"Passed: {passed_tests}/{num_requests} ({passed_tests/num_requests*100:.2f}%)")
 print(f"Average processing time: {average_time:.4f}s")
 print(f"Total processing time: {total_time:.4f}s")
+print(address_db)
