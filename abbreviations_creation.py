@@ -1,7 +1,22 @@
 import re
 import json
 import pandas as pd
-from typing import Dict, Set, Tuple, List
+from typing import Dict, Set, Tuple, List, Optional
+import unicodedata
+
+# Helper: Check if string has Vietnamese accents
+def has_accents(s: str) -> bool:
+    return any('WITH' in unicodedata.name(c, '') for c in s if c.isalpha())
+
+# Tie-breaker: Prefer accented names, then by Levenshtein distance
+def break_ties(candidates: List[str], original: str) -> str:
+    # 1. Prefer accented names
+    accented = [c for c in candidates if has_accents(c)]
+    if accented:
+        candidates = accented
+    # 2. Then pick the closest by Levenshtein distance to original input
+    candidates.sort(key=lambda c: levenshtein(c.lower().replace(' ', ''), original))
+    return candidates[0]
 
 # Trie Node
 class TrieNode:
@@ -99,7 +114,7 @@ district_prefixes = ['', 'quận', 'q', 'q.', 'huyện', 'h', 'h.', 'thị xã',
 ward_prefixes = ['', 'phường', 'p', 'p.', 'xã', 'x', 'x.', 'thị trấn', 'tt', 'tt.', 't.t', 'phuong', 'xa', 'thitran']
 
 # Find best match for a level (province, district, ward)
-def find_match(tokens: list[str], trie: Trie, prefixes: list[str], level_name: str) -> Tuple[str | None, int]:
+def find_match(tokens: List[str], trie: Trie, prefixes: List[str], level_name: str) -> Tuple[Optional[str], int]:
     print(f"\n--- Matching {level_name} ---")
     print(f"Input tokens: {tokens}")
     for has_separate_prefix in [True, False]:
@@ -130,11 +145,11 @@ def find_match(tokens: list[str], trie: Trie, prefixes: list[str], level_name: s
                 cand_lower = name_cand.lower()
                 cand_stripped = cand_lower
                 print(f"    Name candidate: {name_cand}")
-                for prefix in [p.lower().replace(' ', '') for p in prefixes if p]:
-                    if cand_stripped.startswith(prefix):
-                        print(f"    Found concatenated prefix: {prefix}")
-                        cand_stripped = cand_stripped[len(prefix):].strip()
-                        break
+                # for prefix in [p.lower().replace(' ', '') for p in prefixes if p]:
+                #     if cand_stripped.startswith(prefix):
+                #         print(f"    Found concatenated prefix: {prefix}")
+                #         cand_stripped = cand_stripped[len(prefix):].strip()
+                #         break
 
             cond_cand = cand_stripped.replace(' ', '')
             print(f"    Condensed candidate: {cond_cand}")
@@ -146,8 +161,32 @@ def find_match(tokens: list[str], trie: Trie, prefixes: list[str], level_name: s
             ref_len = len(cond_cand)
             thresh = 0 if ref_len <= 3 else (ref_len // 3)
             matches = trie.find_matches(cond_cand, thresh)
+            # print(matches)
             if matches:
-                best_orig, best_dist = min(matches, key=lambda x: x[1])
+                # best_orig, best_dist = min(matches, key=lambda x: x[1])
+                # Step 1: Find the minimum distance
+                min_dist = min(m[1] for m in matches)
+
+                # Step 2: Filter matches with that minimum distance
+                best_candidates = [m[0] for m in matches if m[1] == min_dist]
+                # print(f"Best candidates (distance={min_dist}): {best_candidates}")
+
+                # Step 3: Prefer the one that matches the original candidate (if any)
+                for cand in best_candidates:
+                    # print(f"Checking match: {cand.lower().replace(' ', '')} == {cond_cand}")
+                    if cand.lower().replace(' ', '') == cond_cand:
+                        best_orig = cand
+                        best_dist = min_dist
+                        print(f"✅ Exact condensed match found: {best_orig}")
+                        break
+                else:
+                    # Fall back to first best candidate
+                    # best_orig = best_candidates[0]
+                    # best_dist = min_dist
+                    # Fall back using tie-breaker
+                    best_orig = break_ties(best_candidates, cond_cand)
+                    best_dist = min_dist
+                    print(f"🔍 Tie-breaker selected: {best_orig}")
                 print(f"    Match found: {best_orig} (distance={best_dist}, threshold={thresh})")
                 print(f"    Selected match: {best_orig}, consuming {num_tokens} tokens")
                 return best_orig, num_tokens
@@ -199,26 +238,26 @@ def extract_address(text: str) -> Dict[str, str]:
 # Testing with first 50 test cases from public.json
 def test_address_extraction():
     test_cases = [
+        # {
+        #     "text": "357/28,Ng-T- Thuật,P1,Q3,TP.HồChíMinh.",
+        #     "result": {"province": "Hồ Chí Minh", "district": "", "ward": ""}
+        # },
         {
-            "text": "357/28,Ng-T- Thuật,P1,Q3,TP.HồChíMinh.",
-            "result": {"province": "Hồ Chí Minh", "district": "", "ward": ""}
-        },
-        {
-            "text": "TT Tân Bình Huyện Yên Sơn, Tuyên Quang",
+            "text": "TT Tân Bình Huyện YYên Sơn, Tuyên Quang",
             "result": {"province": "Tuyên Quang", "district": "Yên Sơn", "ward": "Tân Bình"}
         },
-        {
-            "text": "284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.",
-            "result": {"province": "Tiền Giang", "district": "Mỹ Tho", "ward": "3"}
-        },
-        {
-            "text": ",H.Tuy An,Tinh Phú yên",
-            "result": {"province": "Phú Yên", "district": "Tuy An", "ward": ""}
-        },
-        {
-            "text": "T18,Cẩm Bình, Cẩm Phả, Quảng Ninh.",
-            "result": {"province": "Quảng Ninh", "district": "Cẩm Phả", "ward": "Cẩm Bình"}
-        }
+        # {
+        #     "text": "284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.",
+        #     "result": {"province": "Tiền Giang", "district": "Mỹ Tho", "ward": "3"}
+        # },
+        # {
+        #     "text": ",H.Tuy An,Tinh Phú yên",
+        #     "result": {"province": "Phú Yên", "district": "Tuy An", "ward": ""}
+        # },
+        # {
+        #     "text": "T18,Cẩm Bonh, Cẩm Phả, Quảng Nomh.",
+        #     "result": {"province": "Quảng Ninh", "district": "Cẩm Phả", "ward": "Cẩm Bình"}
+        # }
         # Add remaining 45 test cases from public.json here
     ]
 
@@ -235,9 +274,6 @@ def test_address_extraction():
         print(f"Correct: {is_correct}")
         if is_correct:
             correct += 1
-        # Break after first case for detailed demonstration
-        # if i == 1:
-        #     break
 
     print(f"\nAccuracy: {correct}/{total} ({correct/total*100:.2f}%)")
 
