@@ -1,0 +1,1235 @@
+
+Test Case 21:
+Input: TT Tân Bình Huyện Yên Sơn, Tuyên Quang
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Tân Bình'}
+Actual: {'province': 'Tuyên Quang', 'district': '', 'ward': 'Tân Bình'}
+Differences:
+  District: Expected 'Yên Sơn', got ''
+Notes: N/A
+
+Test Case 22:
+Input: 357/28,Ng-T- Thuật,P1,Q3,TP.HồChíMinh.
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Actual: {'province': 'Hồ Chí Minh', 'district': '3', 'ward': '1'}
+Differences:
+  District: Expected '', got '3'
+  Ward: Expected '', got '1'
+Notes: N/A
+
+Test Case 23:
+Input: 284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.
+Expected: {'province': 'Tiền Giang', 'district': 'Mỹ Tho', 'ward': '3'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Tiền Giang', got ''
+  District: Expected 'Mỹ Tho', got ''
+  Ward: Expected '3', got ''
+Notes: N/A
+
+Test Case 24:
+Input: Nà Làng Phú Bình, Chiêm Hoá, Tuyên Quang
+Expected: {'province': 'Tuyên Quang', 'district': 'Chiêm Hóa', 'ward': 'Phú Bình'}
+Actual: {'province': 'Tuyên Quang', 'district': '', 'ward': 'Bình Hiên'}
+Differences:
+  District: Expected 'Chiêm Hóa', got ''
+  Ward: Expected 'Phú Bình', got 'Bình Hiên'
+Notes: N/A
+
+Test Case 27:
+Input: T18,Cẩm Bình, Cẩm Phả, Quảng Ninh.
+Expected: {'province': 'Quảng Ninh', 'district': 'Cẩm Phả', 'ward': 'Cẩm Bình'}
+Actual: {'province': 'Quảng Ninh', 'district': '', 'ward': 'Cẩm Bình'}
+Differences:
+  District: Expected 'Cẩm Phả', got ''
+Notes: N/A
+
+Test Case 33:
+Input: Số Nhà 38, Tổ 9 Tô Hiệu, Thành phố Sơn La, Sơn La
+Expected: {'province': 'Sơn La', 'district': 'Sơn La', 'ward': 'Tô Hiệu'}
+Actual: {'province': 'Sơn La', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Sơn La', got ''
+  Ward: Expected 'Tô Hiệu', got ''
+Notes: N/A
+
+Test Case 35:
+Input: Khu 3 Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh
+Expected: {'province': 'Bắc Ninh', 'district': 'Bắc Ninh', 'ward': 'Suối Hoa'}
+Actual: {'province': 'Bắc Ninh', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Bắc Ninh', got ''
+  Ward: Expected 'Suối Hoa', got ''
+Notes: N/A
+
+Test Case 46:
+Input: Số 259/54/8, Tổ 28, KP1, Long Bình Tân, Biên Hòa, Đồng Nai.
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Actual: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Bình Tân'}
+Differences:
+  Ward: Expected 'Long Bình Tân', got 'Bình Tân'
+Notes: N/A
+
+Test Case 49:
+Input: Tiểu khu 3, thị trấn Ba Hàng, huyện Phổ Yên, tỉnh Thái Nguyên.
+Expected: {'province': '', 'district': '', 'ward': ''}
+Actual: {'province': 'Thái Nguyên', 'district': 'Phổ Yên', 'ward': 'Ba Hàng'}
+Differences:
+  Province: Expected '', got 'Thái Nguyên'
+  District: Expected '', got 'Phổ Yên'
+  Ward: Expected '', got 'Ba Hàng'
+Notes: N/A
+
+Test Case 55:
+Input: Hoằng Anh Thành phố Thanh Hóa, Thanh Hóa
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Hoằng Anh'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': ''}
+Differences:
+  Ward: Expected 'Hoằng Anh', got ''
+Notes: N/A
+
+Test Case 63:
+Input: Đô xá, Dân Lực, Triệu Sơn, Thanh Hoá.
+Expected: {'province': 'Thanh Hóa', 'district': 'Triệu Sơn', 'ward': 'Dân Lực'}
+Actual: {'province': '', 'district': '', 'ward': 'Dân Lực'}
+Differences:
+  Province: Expected 'Thanh Hóa', got ''
+  District: Expected 'Triệu Sơn', got ''
+Notes: N/A
+
+Test Case 64:
+Input: 154/4/81 Nguyễn - Phúc Chu, P15, TB, TP. Hồ Chí Minh
+Expected: {'province': '', 'district': '', 'ward': ''}
+Actual: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected '', got 'Hồ Chí Minh'
+Notes: N/A
+
+Test Case 72:
+Input: Phố Đức Sơn, TT Bút Sơn, Hoằng Hoá, Thanh Hoá.
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Bút Sơn'}
+Actual: {'province': '', 'district': '', 'ward': 'Bút Sơn'}
+Differences:
+  Province: Expected 'Thanh Hóa', got ''
+  District: Expected 'Hoằng Hóa', got ''
+Notes: N/A
+
+Test Case 74:
+Input: Thái Hòa Huyện Thái Thụy, Thái Bình
+Expected: {'province': 'Thái Bình', 'district': 'Thái Thụy', 'ward': 'Thái Hòa'}
+Actual: {'province': 'Thái Bình', 'district': 'Thái Thụy', 'ward': 'Mi Hòa'}
+Differences:
+  Ward: Expected 'Thái Hòa', got 'Mi Hòa'
+Notes: N/A
+
+Test Case 77:
+Input: Thôn Thành Bắc, Xã Quảng Thành, TP Thanh Hoá, Thanh Hoá
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Quảng Thành'}
+Actual: {'province': '', 'district': 'Yên Thành', 'ward': 'Quảng Thành'}
+Differences:
+  Province: Expected 'Thanh Hóa', got ''
+  District: Expected 'Thanh Hóa', got 'Yên Thành'
+Notes: N/A
+
+Test Case 85:
+Input: Mỹ Hòa xã Mỹ Long, H.Cai Lậy, Tiền Giang
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Mỹ Long'}
+Actual: {'province': 'Tiền Giang', 'district': '', 'ward': 'Mỹ Long'}
+Differences:
+  District: Expected 'Cai Lậy', got ''
+Notes: N/A
+
+Test Case 89:
+Input: Xã Tân Bình Huyện Như Xuân, Thanh Hoá
+Expected: {'province': 'Thanh Hóa', 'district': 'Như Xuân', 'ward': 'Tân Bình'}
+Actual: {'province': '', 'district': 'Như Xuân', 'ward': 'Tân Bình'}
+Differences:
+  Province: Expected 'Thanh Hóa', got ''
+Notes: N/A
+
+Test Case 90:
+Input: Phố 2, Vân Giang Thành phố Ninh Bình, Ninh Bình
+Expected: {'province': 'Ninh Bình', 'district': 'Ninh Bình', 'ward': 'Vân Giang'}
+Actual: {'province': 'Ninh Bình', 'district': 'Ninh Bình', 'ward': ''}
+Differences:
+  Ward: Expected 'Vân Giang', got ''
+Notes: N/A
+
+Test Case 96:
+Input: 55/30 Nguyễn - Thượng Hiền,P5,BT, TP. Hồ Chí Minh
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Bình Thạnh', 'ward': '5'}
+Actual: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Bình Thạnh', got ''
+  Ward: Expected '5', got ''
+Notes: N/A
+
+Test Case 103:
+Input: Thôn Yến Thạch Xá- Thạch Thất-Hà Nội
+Expected: {'province': 'Hà Nội', 'district': 'Thạch Thất', 'ward': 'Thạch Xá'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Hà Nội', got ''
+  District: Expected 'Thạch Thất', got ''
+  Ward: Expected 'Thạch Xá', got ''
+Notes: N/A
+
+Test Case 106:
+Input: Khu phố Nam Tân, TT Thuận Nam, Hàm Thuận Bắc, Bình Thuận.
+Expected: {'province': '', 'district': '', 'ward': ''}
+Actual: {'province': 'Bình Thuận', 'district': '', 'ward': 'Hoà Thuận'}
+Differences:
+  Province: Expected '', got 'Bình Thuận'
+  Ward: Expected '', got 'Hoà Thuận'
+Notes: N/A
+
+Test Case 111:
+Input: Xã Nguyên Bình Huyện Tĩnh Gia, Thanh Hoá
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Nguyên Bình'}
+Actual: {'province': '', 'district': '', 'ward': 'Nguyên Bình'}
+Differences:
+  Province: Expected 'Thanh Hóa', got ''
+  District: Expected 'Tĩnh Gia', got ''
+Notes: N/A
+
+Test Case 113:
+Input: Hoằng Minh, Hoằng Hóa Thanh Hóa
+Expected: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Minh'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Hoằng Hóa', 'ward': 'Hoằng Trinh'}
+Differences:
+  Ward: Expected 'Hoằng Minh', got 'Hoằng Trinh'
+Notes: N/A
+
+Test Case 115:
+Input: Liên Bình, Hải Bình Tĩnh Gia, Thanh Hóa
+Expected: {'province': 'Thanh Hóa', 'district': 'Tĩnh Gia', 'ward': 'Hải Bình'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Gia Bình', 'ward': 'Bình Hải'}
+Differences:
+  District: Expected 'Tĩnh Gia', got 'Gia Bình'
+  Ward: Expected 'Hải Bình', got 'Bình Hải'
+Notes: N/A
+
+Test Case 117:
+Input: Ấp 17 Long Trung, Cai Lậy, Tiền Giang
+Expected: {'province': 'Tiền Giang', 'district': 'Cai Lậy', 'ward': 'Long Trung'}
+Actual: {'province': 'Tiền Giang', 'district': '', 'ward': 'Long Trung'}
+Differences:
+  District: Expected 'Cai Lậy', got ''
+Notes: N/A
+
+Test Case 120:
+Input: 02 Tú Xương, Đông Thọ Thành phố Thanh Hóa, Thanh Hóa
+Expected: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': 'Đông Thọ'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Thanh Hóa', 'ward': ''}
+Differences:
+  Ward: Expected 'Đông Thọ', got ''
+Notes: N/A
+
+Test Case 125:
+Input: Hà Tân Hưng Hà, Tân Hưng, Long An
+Expected: {'province': 'Long An', 'district': 'Tân Hưng', 'ward': 'Hưng Hà'}
+Actual: {'province': 'Long An', 'district': 'Tân Hưng', 'ward': 'Tân Hưng'}
+Differences:
+  Ward: Expected 'Hưng Hà', got 'Tân Hưng'
+Notes: N/A
+
+Test Case 129:
+Input: - Khu B Chu Hoà, Việt HhiPhú Thọ
+Expected: {'province': '', 'district': '', 'ward': ''}
+Actual: {'province': 'Phú Thọ', 'district': '', 'ward': 'Hoàng Việt'}
+Differences:
+  Province: Expected '', got 'Phú Thọ'
+  Ward: Expected '', got 'Hoàng Việt'
+Notes: N/A
+
+Test Case 131:
+Input: Số 7/Q3, KPI, Phường Long Bình Tân, Tp Biên Hoà, Đồng Nai.
+Expected: {'province': 'Đồng Nai', 'district': 'Biên Hòa', 'ward': 'Long Bình Tân'}
+Actual: {'province': 'Đồng Nai', 'district': '', 'ward': 'Long Bình Tân'}
+Differences:
+  District: Expected 'Biên Hòa', got ''
+Notes: N/A
+
+Test Case 133:
+Input: A:12A.21BlockA C/c BCA,P.AnKhánh,TP.Thủ Đức, TP. HCM
+Expected: {'province': 'Hồ Chí Minh', 'district': 'Thủ Đức', 'ward': ''}
+Actual: {'province': '', 'district': 'Thủ Đức', 'ward': 'An Khánh'}
+Differences:
+  Province: Expected 'Hồ Chí Minh', got ''
+  Ward: Expected '', got 'An Khánh'
+Notes: N/A
+
+Test Case 134:
+Input: L10C12 Hẻm 90, Ng, Bỉnh Khiêm, TP. Rạch Giá, Kiên Giang
+Expected: {'province': 'Kiên Giang', 'district': '', 'ward': ''}
+Actual: {'province': 'Kiên Giang', 'district': 'Rạch Giá', 'ward': ''}
+Differences:
+  District: Expected '', got 'Rạch Giá'
+Notes: N/A
+
+Test Case 143:
+Input: 14.5 Block A2, The Mansion, ĐS 7,KDC 13E,Ấp 5,PP,BC, TP.HCM
+Expected: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Hồ Chí Minh', got ''
+Notes: N/A
+
+Test Case 146:
+Input: Tân Thắng Tân An Hội, Mang Thít, Vĩnh Long
+Expected: {'province': 'Vĩnh Long', 'district': 'Mang Thít', 'ward': 'Tân An Hội'}
+Actual: {'province': 'Vĩnh Long', 'district': 'Mang Thít', 'ward': 'An Hội'}
+Differences:
+  Ward: Expected 'Tân An Hội', got 'An Hội'
+Notes: N/A
+
+Test Case 153:
+Input: Số 10, Ngách 43/3, Ngõ 43 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội.
+Expected: {'province': 'Hà Nội', 'district': 'Thanh Xuân', 'ward': 'Khương Mai'}
+Actual: {'province': 'Hà Nội', 'district': 'Thanh Xuân', 'ward': 'Nà Khương'}
+Differences:
+  Ward: Expected 'Khương Mai', got 'Nà Khương'
+Notes: N/A
+
+Test Case 154:
+Input: 191A Nguyễn Thị Định An Phú, Quận 2, Tp Hồ Chí Minh
+Expected: {'province': 'Hồ Chí Minh', 'district': '2', 'ward': 'An Phú'}
+Actual: {'province': 'Hồ Chí Minh', 'district': '', 'ward': 'An Phú Thuận'}
+Differences:
+  District: Expected '2', got ''
+  Ward: Expected 'An Phú', got 'An Phú Thuận'
+Notes: N/A
+
+Test Case 161:
+Input: Chiêu Yên Yên Sơn, Tuyên Quang
+Expected: {'province': 'Tuyên Quang', 'district': 'Yên Sơn', 'ward': 'Chiêu Yên'}
+Actual: {'province': 'Tuyên Quang', 'district': 'Tiên Yên', 'ward': ''}
+Differences:
+  District: Expected 'Yên Sơn', got 'Tiên Yên'
+  Ward: Expected 'Chiêu Yên', got ''
+Notes: N/A
+
+Test Case 171:
+Input: Liên Minh,,TỉnhThái Nguyên
+Expected: {'district': '', 'ward': 'Liên Minh', 'province': 'Thái Nguyên'}
+Actual: {'province': 'Thái Nguyên', 'district': 'Yên Minh', 'ward': ''}
+Differences:
+  District: Expected '', got 'Yên Minh'
+  Ward: Expected 'Liên Minh', got ''
+Notes: N/A
+
+Test Case 172:
+Input: X Bình Thuận H.Tây Son Tỉnh Bình Định
+Expected: {'district': 'Tây Sơn', 'ward': 'Bình Thuận', 'province': 'Bình Định'}
+Actual: {'province': 'Bình Định', 'district': '', 'ward': 'Bình Thuận'}
+Differences:
+  District: Expected 'Tây Sơn', got ''
+Notes: N/A
+
+Test Case 174:
+Input:  Chợ Chu, , T Thái Nguyên
+Expected: {'district': '', 'ward': 'Chợ Chu', 'province': 'Thái Nguyên'}
+Actual: {'province': 'Thái Nguyên', 'district': 'Chợ Lách', 'ward': ''}
+Differences:
+  District: Expected '', got 'Chợ Lách'
+  Ward: Expected 'Chợ Chu', got ''
+Notes: N/A
+
+Test Case 177:
+Input: Phường Phú Lợi  TBình Dương
+Expected: {'district': '', 'ward': 'Phú Lợi', 'province': 'Bình Dương'}
+Actual: {'province': 'Bình Dương', 'district': '', 'ward': ''}
+Differences:
+  Ward: Expected 'Phú Lợi', got ''
+Notes: N/A
+
+Test Case 185:
+Input: X.Thài Phìn Tủng, Huyện ĐồGg Van,  Hà Gxiang
+Expected: {'district': 'Đồng Văn', 'ward': 'Thài Phìn Tủng', 'province': 'Hà Giang'}
+Actual: {'province': 'Hà Giang', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Đồng Văn', got ''
+  Ward: Expected 'Thài Phìn Tủng', got ''
+Notes: N/A
+
+Test Case 186:
+Input: XãBù Gia Mập,,T Bình Phước
+Expected: {'district': '', 'ward': 'Bù Gia Mập', 'province': 'Bình Phước'}
+Actual: {'province': 'Bình Phước', 'district': 'Bù Gia Mập', 'ward': ''}
+Differences:
+  District: Expected '', got 'Bù Gia Mập'
+  Ward: Expected 'Bù Gia Mập', got ''
+Notes: N/A
+
+Test Case 188:
+Input: ,H.Nqm Đàn, nghệ An
+Expected: {'district': 'Nam Đàn', 'ward': '', 'province': 'Nghệ An'}
+Actual: {'province': 'Nghệ An', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Nam Đàn', got ''
+Notes: N/A
+
+Test Case 190:
+Input:  Tam GiangNăm CănT.Cà Mau
+Expected: {'district': 'Năm Căn', 'ward': 'Tam Giang', 'province': 'Cà Mau'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Cà Mau', got ''
+  District: Expected 'Năm Căn', got ''
+  Ward: Expected 'Tam Giang', got ''
+Notes: N/A
+
+Test Case 194:
+Input: X Cam Bình, Thành FhốCam Rah,  Khánh Hòa
+Expected: {'district': 'Cam Ranh', 'ward': 'Cam Bình', 'province': 'Khánh Hòa'}
+Actual: {'province': 'Khánh Hòa', 'district': '', 'ward': 'Cam Bình'}
+Differences:
+  District: Expected 'Cam Ranh', got ''
+Notes: N/A
+
+Test Case 195:
+Input: X.UThạnh Lợi  TỉnhLong An
+Expected: {'district': '', 'ward': 'Thạnh Lợi', 'province': 'Long An'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Long An', got ''
+  Ward: Expected 'Thạnh Lợi', got ''
+Notes: N/A
+
+Test Case 196:
+Input:  Minh Tân,h.Lưng Tai,
+Expected: {'district': 'Lương Tài', 'ward': 'Minh Tân', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Lương Tài', got ''
+  Ward: Expected 'Minh Tân', got ''
+Notes: N/A
+
+Test Case 199:
+Input: X.Hiep Tung Huyện Năm Căn T.Cà Mau
+Expected: {'district': 'Năm Căn', 'ward': 'Hiệp Tùng', 'province': 'Cà Mau'}
+Actual: {'province': 'Cà Mau', 'district': 'Năm Căn', 'ward': ''}
+Differences:
+  Ward: Expected 'Hiệp Tùng', got ''
+Notes: N/A
+
+Test Case 201:
+Input: P.tự Anm T.PhốBuôn Ma Thuột, T. Đắk Lăk
+Expected: {'district': 'Buôn Ma Thuột', 'ward': 'Tự An', 'province': 'Đắk Lắk'}
+Actual: {'province': 'Đắk Lắk', 'district': 'Buôn Ma Thuột', 'ward': ''}
+Differences:
+  Ward: Expected 'Tự An', got ''
+Notes: N/A
+
+Test Case 206:
+Input: X. Hà Hồi H. Thường Tin TPHàNội
+Expected: {'district': 'Thường Tín', 'ward': 'Hà Hồi', 'province': 'Hà Nội'}
+Actual: {'province': '', 'district': 'Thường Tín', 'ward': 'Hà Hồi'}
+Differences:
+  Province: Expected 'Hà Nội', got ''
+Notes: N/A
+
+Test Case 209:
+Input: Sơn Thủy T Quảng Bình
+Expected: {'district': '', 'ward': 'Sơn Thủy', 'province': 'Quảng Bình'}
+Actual: {'province': 'Quảng Bình', 'district': 'Sơn Tây', 'ward': ''}
+Differences:
+  District: Expected '', got 'Sơn Tây'
+  Ward: Expected 'Sơn Thủy', got ''
+Notes: N/A
+
+Test Case 213:
+Input:  Tam Văn  xLang Chánh  Thanh Hóa
+Expected: {'district': 'Lang Chánh', 'ward': 'Tam Văn', 'province': 'Thanh Hóa'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Lang Chánh', 'ward': ''}
+Differences:
+  Ward: Expected 'Tam Văn', got ''
+Notes: N/A
+
+Test Case 218:
+Input: PHoà Quý Q.ngũ Hành sơn Đà Nẵng
+Expected: {'district': 'Ngũ Hành Sơn', 'ward': 'Hoà Quý', 'province': 'Đà Nẵng'}
+Actual: {'province': 'Đà Nẵng', 'district': 'Ngũ Hành Sơn', 'ward': ''}
+Differences:
+  Ward: Expected 'Hoà Quý', got ''
+Notes: N/A
+
+Test Case 220:
+Input: X Phong Quang, HKuyệnVị Xuyên, Tỉnh Hà Giang
+Expected: {'district': 'Vị Xuyên', 'ward': 'Phong Quang', 'province': 'Hà Giang'}
+Actual: {'province': 'Hà Giang', 'district': '', 'ward': 'Phong Quang'}
+Differences:
+  District: Expected 'Vị Xuyên', got ''
+Notes: N/A
+
+Test Case 221:
+Input: XãV Ninh, Kiên Xương,
+Expected: {'district': 'Kiến Xương', 'ward': 'Vũ Ninh', 'province': ''}
+Actual: {'province': '', 'district': 'Kiến Xương', 'ward': 'Võ Ninh'}
+Differences:
+  Ward: Expected 'Vũ Ninh', got 'Võ Ninh'
+Notes: N/A
+
+Test Case 222:
+Input:  TP Biên Hòa TỉnhĐyng Nai
+Expected: {'district': 'Biên Hòa', 'ward': '', 'province': 'Đồng Nai'}
+Actual: {'province': '', 'district': 'Biên Hòa', 'ward': 'Tân Biên'}
+Differences:
+  Province: Expected 'Đồng Nai', got ''
+  Ward: Expected '', got 'Tân Biên'
+Notes: N/A
+
+Test Case 223:
+Input: X. Trà DVưong Bắc Trà My TQuảg Nam
+Expected: {'district': 'Bắc Trà My', 'ward': 'Trà Dương', 'province': 'Quảng Nam'}
+Actual: {'province': 'Quảng Nam', 'district': 'Bắc Trà My', 'ward': 'Trà Vong'}
+Differences:
+  Ward: Expected 'Trà Dương', got 'Trà Vong'
+Notes: N/A
+
+Test Case 227:
+Input: Phưng Khâm Thiên Quận Đ.Đa T.Phố HàNội
+Expected: {'district': 'Đống Đa', 'ward': 'Khâm Thiên', 'province': 'Hà Nội'}
+Actual: {'province': 'Hà Nội', 'district': '', 'ward': 'Khâm Thiên'}
+Differences:
+  District: Expected 'Đống Đa', got ''
+Notes: N/A
+
+Test Case 229:
+Input: XVnh Hung, , T.Thanh Hóa
+Expected: {'district': '', 'ward': 'Vĩnh Hùng', 'province': 'Thanh Hóa'}
+Actual: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Differences:
+  Ward: Expected 'Vĩnh Hùng', got ''
+Notes: N/A
+
+Test Case 234:
+Input: X.Yên Lạc HuyệnNhu Thanh Tỉnh Thanh Hóa
+Expected: {'district': 'Như Thanh', 'ward': 'Yên Lạc', 'province': 'Thanh Hóa'}
+Actual: {'province': 'Thanh Hóa', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Như Thanh', got ''
+  Ward: Expected 'Yên Lạc', got ''
+Notes: N/A
+
+Test Case 236:
+Input: QX.Tân Hưng Tây, Ph8 Tân,
+Expected: {'district': 'Phú Tân', 'ward': 'Tân Hưng Tây', 'province': ''}
+Actual: {'province': '', 'district': 'Phú Tân', 'ward': 'Hưng Tây'}
+Differences:
+  Ward: Expected 'Tân Hưng Tây', got 'Hưng Tây'
+Notes: N/A
+
+Test Case 241:
+Input: XBình PhúN  Càng Long, T.u trà Vinh
+Expected: {'district': 'Càng Long', 'ward': 'Bình Phú', 'province': 'Trà Vinh'}
+Actual: {'province': 'Trà Vinh', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Càng Long', got ''
+  Ward: Expected 'Bình Phú', got ''
+Notes: N/A
+
+Test Case 242:
+Input: Phưong Thọ Son,T.Phố Việt Trì, Phú Thọ
+Expected: {'district': 'Việt Trì', 'ward': 'Thọ Sơn', 'province': 'Phú Thọ'}
+Actual: {'province': 'Phú Thọ', 'district': 'Việt Trì', 'ward': ''}
+Differences:
+  Ward: Expected 'Thọ Sơn', got ''
+Notes: N/A
+
+Test Case 244:
+Input:  Cộng Hòa,,TỉnhHaOi Dương
+Expected: {'district': '', 'ward': 'Cộng Hòa', 'province': 'Hải Dương'}
+Actual: {'province': 'Hải Dương', 'district': 'Ứng Hòa', 'ward': ''}
+Differences:
+  District: Expected '', got 'Ứng Hòa'
+  Ward: Expected 'Cộng Hòa', got ''
+Notes: N/A
+
+Test Case 245:
+Input: Đai TanHuyện Đại ộc,TỉnhQuảng Nam
+Expected: {'district': 'Đại Lộc', 'ward': 'Đại Tân', 'province': 'Quảng Nam'}
+Actual: {'province': 'Quảng Nam', 'district': 'Đại Lộc', 'ward': ''}
+Differences:
+  Ward: Expected 'Đại Tân', got ''
+Notes: N/A
+
+Test Case 248:
+Input: X Sùng Phài T.P zai Châu T.Lai Châu
+Expected: {'district': 'Lai Châu', 'ward': 'Sùng Phài', 'province': 'Lai Châu'}
+Actual: {'province': 'Lai Châu', 'district': '', 'ward': 'Sùng Phài'}
+Differences:
+  District: Expected 'Lai Châu', got ''
+Notes: N/A
+
+Test Case 251:
+Input: XKHoan Sơn,TiênDu,Tỉnhbac Ninh
+Expected: {'district': 'Tiên Du', 'ward': 'Hoàn Sơn', 'province': 'Bắc Ninh'}
+Actual: {'province': 'Bắc Ninh', 'district': 'Tiên Du', 'ward': 'Hoa Sơn'}
+Differences:
+  Ward: Expected 'Hoàn Sơn', got 'Hoa Sơn'
+Notes: N/A
+
+Test Case 258:
+Input: X.Chê La,,T.Hà GianZ
+Expected: {'district': '', 'ward': 'Chế Là', 'province': 'Hà Giang'}
+Actual: {'province': 'Hà Giang', 'district': '', 'ward': 'Lìa'}
+Differences:
+  Ward: Expected 'Chế Là', got 'Lìa'
+Notes: N/A
+
+Test Case 259:
+Input: Hôno Sỹ  Tỉnh Cao Bằng
+Expected: {'district': '', 'ward': 'Hồng Sỹ', 'province': 'Cao Bằng'}
+Actual: {'province': 'Cao Bằng', 'district': '', 'ward': ''}
+Differences:
+  Ward: Expected 'Hồng Sỹ', got ''
+Notes: N/A
+
+Test Case 261:
+Input: F An lac Chí Linh Tỉnh Hải Dương
+Expected: {'district': 'Chí Linh', 'ward': 'An Lạc', 'province': 'Hải Dương'}
+Actual: {'province': 'Hải Dương', 'district': 'Chí Linh', 'ward': 'An Lộc'}
+Differences:
+  Ward: Expected 'An Lạc', got 'An Lộc'
+Notes: N/A
+
+Test Case 266:
+Input: XãChiềng Mu5ng  T.stn la
+Expected: {'district': '', 'ward': 'Chiềng Mung', 'province': 'Sơn La'}
+Actual: {'province': '', 'district': '', 'ward': 'Lìa'}
+Differences:
+  Province: Expected 'Sơn La', got ''
+  Ward: Expected 'Chiềng Mung', got 'Lìa'
+Notes: N/A
+
+Test Case 267:
+Input: Fmễ Trì, Nam Từ Liêm, Thành phố HN
+Expected: {'district': 'Nam Từ Liêm', 'ward': 'Mễ Trì', 'province': 'Hà Nội'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Hà Nội', got ''
+  District: Expected 'Nam Từ Liêm', got ''
+  Ward: Expected 'Mễ Trì', got ''
+Notes: N/A
+
+Test Case 268:
+Input: P4 T.Ph9ốĐông Hà 
+Expected: {'district': 'Đông Hà', 'ward': '4', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Đông Hà', got ''
+  Ward: Expected '4', got ''
+Notes: N/A
+
+Test Case 272:
+Input: F.07, Q6, 
+Expected: {'district': '6', 'ward': '07', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  District: Expected '6', got ''
+  Ward: Expected '07', got ''
+Notes: N/A
+
+Test Case 273:
+Input: P.Xuân Lam, Thuận Thành, T.Bắc Ninh
+Expected: {'district': 'Thuận Thành', 'ward': 'Xuân Lâm', 'province': 'Bắc Ninh'}
+Actual: {'province': 'Bắc Ninh', 'district': 'Thuận Thành', 'ward': ''}
+Differences:
+  Ward: Expected 'Xuân Lâm', got ''
+Notes: N/A
+
+Test Case 278:
+Input:  Bằng Lng,,T.Bắc Kạn
+Expected: {'district': '', 'ward': 'Bằng Lũng', 'province': 'Bắc Kạn'}
+Actual: {'province': 'Bắc Kạn', 'district': '', 'ward': 'Bằng Lang'}
+Differences:
+  Ward: Expected 'Bằng Lũng', got 'Bằng Lang'
+Notes: N/A
+
+Test Case 279:
+Input:  Huyệntân biên T.TDy Ninh
+Expected: {'district': 'Tân Biên', 'ward': '', 'province': 'Tây Ninh'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Tây Ninh', got ''
+  District: Expected 'Tân Biên', got ''
+Notes: N/A
+
+Test Case 281:
+Input: X. Tân An, HuyệnThnh Hà, 
+Expected: {'district': 'Thanh Hà', 'ward': 'Tân An', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': 'Tân An'}
+Differences:
+  District: Expected 'Thanh Hà', got ''
+Notes: N/A
+
+Test Case 282:
+Input: XãtrBung Thanh,,TThanh Hóa
+Expected: {'district': '', 'ward': 'Trung Thành', 'province': 'Thanh Hóa'}
+Actual: {'province': 'Thanh Hóa', 'district': '', 'ward': 'Trung Thạnh'}
+Differences:
+  Ward: Expected 'Trung Thành', got 'Trung Thạnh'
+Notes: N/A
+
+Test Case 283:
+Input: vĩnh Hưng, , Long An
+Expected: {'district': '', 'ward': 'Vĩnh Hưng', 'province': 'Long An'}
+Actual: {'province': 'Long An', 'district': 'Vĩnh Hưng', 'ward': ''}
+Differences:
+  District: Expected '', got 'Vĩnh Hưng'
+  Ward: Expected 'Vĩnh Hưng', got ''
+Notes: N/A
+
+Test Case 284:
+Input: Phường 04,,Thành phốHồ Chi Minh
+Expected: {'district': '', 'ward': '04', 'province': 'Hồ Chí Minh'}
+Actual: {'province': 'Hồ Chí Minh', 'district': '', 'ward': ''}
+Differences:
+  Ward: Expected '04', got ''
+Notes: N/A
+
+Test Case 285:
+Input: Xã Nâm Ntừ  Nậm Pồ 
+Expected: {'district': 'Nậm Pồ', 'ward': 'Nậm Nhừ', 'province': ''}
+Actual: {'province': '', 'district': 'Nậm Pồ', 'ward': ''}
+Differences:
+  Ward: Expected 'Nậm Nhừ', got ''
+Notes: N/A
+
+Test Case 292:
+Input: P Ea Tam T.P Buôn Ma Thuột TỉnĐắk Llk
+Expected: {'district': 'Buôn Ma Thuột', 'ward': 'Ea Tam', 'province': 'Đắk Lắk'}
+Actual: {'province': '', 'district': 'Buôn Ma Thuột', 'ward': 'Ea Tam'}
+Differences:
+  Province: Expected 'Đắk Lắk', got ''
+Notes: N/A
+
+Test Case 295:
+Input: XNam Cát, HuyệnNam đàn, 
+Expected: {'district': 'Nam Đàn', 'ward': 'Nam Cát', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Nam Đàn', got ''
+  Ward: Expected 'Nam Cát', got ''
+Notes: N/A
+
+Test Case 297:
+Input: X My Thành Bac, HuyệnCai Lậy, 
+Expected: {'district': 'Cai Lậy', 'ward': 'Mỹ Thành Bắc', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': 'Mỹ Thành Bắc'}
+Differences:
+  District: Expected 'Cai Lậy', got ''
+Notes: N/A
+
+Test Case 299:
+Input: X Bình Hi, , T.Quảcg Nam
+Expected: {'district': '', 'ward': 'Bình Hải', 'province': 'Quảng Nam'}
+Actual: {'province': 'Quảng Nam', 'district': 'Bình Đại', 'ward': ''}
+Differences:
+  District: Expected '', got 'Bình Đại'
+  Ward: Expected 'Bình Hải', got ''
+Notes: N/A
+
+Test Case 300:
+Input: XãNân Chính, H Ly Nhân, Tỉnh HaNam
+Expected: {'district': 'Lý Nhân', 'ward': 'Nhân Chính', 'province': 'Hà Nam'}
+Actual: {'province': '', 'district': 'Lý Nhân', 'ward': 'Nhân Chính'}
+Differences:
+  Province: Expected 'Hà Nam', got ''
+Notes: N/A
+
+Test Case 303:
+Input:  HuyệnĐắk Tô T. KonTum
+Expected: {'district': 'Đắk Tô', 'ward': '', 'province': 'Kon Tum'}
+Actual: {'province': 'Kon Tum', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Đắk Tô', got ''
+Notes: N/A
+
+Test Case 304:
+Input: Thị Trấn Nông Trường Việt lâm,Vị Xuyen,Ha Giang
+Expected: {'district': 'Vị Xuyên', 'ward': 'Nông Trường Việt Lâm', 'province': 'Hà Giang'}
+Actual: {'province': 'Hà Giang', 'district': 'Vị Xuyên', 'ward': 'Việt Lâm'}
+Differences:
+  Ward: Expected 'Nông Trường Việt Lâm', got 'Việt Lâm'
+Notes: N/A
+
+Test Case 306:
+Input:  H. Đăk Đoa TỉnhGia Lai
+Expected: {'district': 'Đăk Đoa', 'ward': '', 'province': 'Gia Lai'}
+Actual: {'province': '', 'district': 'Đăk Đoa', 'ward': ''}
+Differences:
+  Province: Expected 'Gia Lai', got ''
+Notes: N/A
+
+Test Case 307:
+Input: F.LoWng Binh, TpThủ Đưc, TPHCM
+Expected: {'district': 'Thủ Đức', 'ward': 'Long Bình', 'province': 'Hồ Chí Minh'}
+Actual: {'province': '', 'district': 'Thủ Đức', 'ward': ''}
+Differences:
+  Province: Expected 'Hồ Chí Minh', got ''
+  Ward: Expected 'Long Bình', got ''
+Notes: N/A
+
+Test Case 311:
+Input: X. Hải Minh,,N5am Định
+Expected: {'district': '', 'ward': 'Hải Minh', 'province': 'Nam Định'}
+Actual: {'province': 'Nam Định', 'district': 'U Minh', 'ward': ''}
+Differences:
+  District: Expected '', got 'U Minh'
+  Ward: Expected 'Hải Minh', got ''
+Notes: N/A
+
+Test Case 313:
+Input: Bạch Lưu, H.Song Lô, Vĩnh PGhúc
+Expected: {'district': 'Sông Lô', 'ward': 'Bạch Lưu', 'province': 'Vĩnh Phúc'}
+Actual: {'province': 'Vĩnh Phúc', 'district': '', 'ward': 'Lưu Hoàng'}
+Differences:
+  District: Expected 'Sông Lô', got ''
+  Ward: Expected 'Bạch Lưu', got 'Lưu Hoàng'
+Notes: N/A
+
+Test Case 315:
+Input: PhườngHà Mãn, T.X.Thuận Thành, 
+Expected: {'district': 'Thuận Thành', 'ward': 'Hà Mãn', 'province': ''}
+Actual: {'province': '', 'district': 'Thuận Thành', 'ward': ''}
+Differences:
+  Ward: Expected 'Hà Mãn', got ''
+Notes: N/A
+
+Test Case 317:
+Input: x. Nam Thai A, AZBiên,Tỉnh Kiên Giang
+Expected: {'district': 'An Biên', 'ward': 'Nam Thái A', 'province': 'Kiên Giang'}
+Actual: {'province': 'Kiên Giang', 'district': 'An Biên', 'ward': 'Nam Thái'}
+Differences:
+  Ward: Expected 'Nam Thái A', got 'Nam Thái'
+Notes: N/A
+
+Test Case 324:
+Input: Nghi Sơ6n, T.X. Nghi Sơn, Thhanh Hóa
+Expected: {'district': 'Nghi Sơn', 'ward': 'Nghi Sơn', 'province': 'Thanh Hóa'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Nghi Sơn', 'ward': ''}
+Differences:
+  Ward: Expected 'Nghi Sơn', got ''
+Notes: N/A
+
+Test Case 325:
+Input: , ThăngFBìh,T. Quảng Nam
+Expected: {'district': 'Thăng Bình', 'ward': '', 'province': 'Quảng Nam'}
+Actual: {'province': 'Quảng Nam', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Thăng Bình', got ''
+Notes: N/A
+
+Test Case 326:
+Input: TT Đạ Tẻh, , T. Lâm Đồng
+Expected: {'district': '', 'ward': 'Đạ Tẻh', 'province': 'Lâm Đồng'}
+Actual: {'province': 'Lâm Đồng', 'district': 'Đạ Tẻh', 'ward': ''}
+Differences:
+  District: Expected '', got 'Đạ Tẻh'
+  Ward: Expected 'Đạ Tẻh', got ''
+Notes: N/A
+
+Test Case 327:
+Input: TT Hội An,,TAn Giang
+Expected: {'district': '', 'ward': 'Hội An', 'province': 'An Giang'}
+Actual: {'province': 'An Giang', 'district': 'Hội An', 'ward': ''}
+Differences:
+  District: Expected '', got 'Hội An'
+  Ward: Expected 'Hội An', got ''
+Notes: N/A
+
+Test Case 329:
+Input: X.H Mỗ, Đan PhTượng,
+Expected: {'district': 'Đan Phượng', 'ward': 'Hạ Mỗ', 'province': ''}
+Actual: {'province': '', 'district': 'Đan Phượng', 'ward': ''}
+Differences:
+  Ward: Expected 'Hạ Mỗ', got ''
+Notes: N/A
+
+Test Case 334:
+Input: Xã Lương Hòa,HuyệnBen Lức,
+Expected: {'district': 'Bến Lức', 'ward': 'Lương Hòa', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': 'Lương Hòa'}
+Differences:
+  District: Expected 'Bến Lức', got ''
+Notes: N/A
+
+Test Case 335:
+Input: X.Tân Son,hchợ QMới,
+Expected: {'district': 'Chợ Mới', 'ward': 'Tân Sơn', 'province': ''}
+Actual: {'province': '', 'district': 'Chợ Mới', 'ward': ''}
+Differences:
+  Ward: Expected 'Tân Sơn', got ''
+Notes: N/A
+
+Test Case 338:
+Input: Thị trấn Tân Phong, , TThanh Hóa
+Expected: {'district': '', 'ward': 'Tân Phong', 'province': 'Thanh Hóa'}
+Actual: {'province': 'Thanh Hóa', 'district': 'Tân Hồng', 'ward': ''}
+Differences:
+  District: Expected '', got 'Tân Hồng'
+  Ward: Expected 'Tân Phong', got ''
+Notes: N/A
+
+Test Case 340:
+Input: X Đương Hoa  TQuảng Ninh
+Expected: {'district': '', 'ward': 'Đường Hoa', 'province': 'Quảng Ninh'}
+Actual: {'province': 'Quảng Ninh', 'district': '', 'ward': 'Vương'}
+Differences:
+  Ward: Expected 'Đường Hoa', got 'Vương'
+Notes: N/A
+
+Test Case 343:
+Input: X Phu Mãn   HN
+Expected: {'district': '', 'ward': 'Phú Mãn', 'province': 'Hà Nội'}
+Actual: {'province': '', 'district': '', 'ward': 'Phú Mãn'}
+Differences:
+  Province: Expected 'Hà Nội', got ''
+Notes: N/A
+
+Test Case 351:
+Input: Tích Sơn T.Phốvinh Yên t vĩnh phúc
+Expected: {'district': 'Vĩnh Yên', 'ward': 'Tích Sơn', 'province': 'Vĩnh Phúc'}
+Actual: {'province': 'Vĩnh Phúc', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Vĩnh Yên', got ''
+  Ward: Expected 'Tích Sơn', got ''
+Notes: N/A
+
+Test Case 352:
+Input: X.Hòa Trị Huzyen hú Hoa TPhú Yên
+Expected: {'district': 'Phú Hoà', 'ward': 'Hòa Trị', 'province': 'Phú Yên'}
+Actual: {'province': 'Phú Yên', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Phú Hoà', got ''
+  Ward: Expected 'Hòa Trị', got ''
+Notes: N/A
+
+Test Case 356:
+Input: X. Bok Tới H Hoài Ân  Bìh Định
+Expected: {'district': 'Hoài Ân', 'ward': 'Bok Tới', 'province': 'Bình Định'}
+Actual: {'province': 'Bình Định', 'district': '', 'ward': 'Bok Tới'}
+Differences:
+  District: Expected 'Hoài Ân', got ''
+Notes: N/A
+
+Test Case 367:
+Input: X.Yên Phong  Tỉnh Bắc Kạn
+Expected: {'district': '', 'ward': 'Yên Phong', 'province': 'Bắc Kạn'}
+Actual: {'province': 'Bắc Kạn', 'district': 'Yên Phong', 'ward': ''}
+Differences:
+  District: Expected '', got 'Yên Phong'
+  Ward: Expected 'Yên Phong', got ''
+Notes: N/A
+
+Test Case 369:
+Input: F.Dịch Vọng  C/Giấy Thành phốHàNội
+Expected: {'district': 'Cầu Giấy', 'ward': 'Dịch Vọng', 'province': 'Hà Nội'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Hà Nội', got ''
+  District: Expected 'Cầu Giấy', got ''
+  Ward: Expected 'Dịch Vọng', got ''
+Notes: N/A
+
+Test Case 371:
+Input:  Ea Huar,HuyệnBuôn Đôn,
+Expected: {'district': 'Buôn Đôn', 'ward': 'Ea Huar', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': 'Đông'}
+Differences:
+  District: Expected 'Buôn Đôn', got ''
+  Ward: Expected 'Ea Huar', got 'Đông'
+Notes: N/A
+
+Test Case 372:
+Input: X.SRó  Kông Chro T.Gia Lai
+Expected: {'district': 'Kông Chro', 'ward': 'SRó', 'province': 'Gia Lai'}
+Actual: {'province': 'Gia Lai', 'district': 'Kông Chro', 'ward': ''}
+Differences:
+  Ward: Expected 'SRó', got ''
+Notes: N/A
+
+Test Case 373:
+Input: X Tân Thanh Huyện Lang Giang 
+Expected: {'district': 'Lạng Giang', 'ward': 'Tân Thanh', 'province': ''}
+Actual: {'province': 'An Giang', 'district': '', 'ward': 'Tân Thanh'}
+Differences:
+  Province: Expected '', got 'An Giang'
+  District: Expected 'Lạng Giang', got ''
+Notes: N/A
+
+Test Case 374:
+Input: X. Sơn Hv HSơn Hoa Tỉnh Phú Yên
+Expected: {'district': 'Sơn Hòa', 'ward': 'Sơn Hội', 'province': 'Phú Yên'}
+Actual: {'province': 'Phú Yên', 'district': 'Sơn Hòa', 'ward': 'Sơn Hạ'}
+Differences:
+  Ward: Expected 'Sơn Hội', got 'Sơn Hạ'
+Notes: N/A
+
+Test Case 375:
+Input: Xã Bản My H..Hoàng Su Phì T.Hà Giang
+Expected: {'district': 'Hoàng Su Phì', 'ward': 'Bản Máy', 'province': 'Hà Giang'}
+Actual: {'province': 'Hà Giang', 'district': 'Hoàng Su Phì', 'ward': ''}
+Differences:
+  Ward: Expected 'Bản Máy', got ''
+Notes: N/A
+
+Test Case 383:
+Input: Xã Tân Kiên Hbình Chánh Thành phôHôChíMinh
+Expected: {'district': 'Bình Chánh', 'ward': 'Tân Kiên', 'province': 'Hồ Chí Minh'}
+Actual: {'province': '', 'district': '', 'ward': 'Tân Kiên'}
+Differences:
+  Province: Expected 'Hồ Chí Minh', got ''
+  District: Expected 'Bình Chánh', got ''
+Notes: N/A
+
+Test Case 384:
+Input:  H.Thanh Liêm T.Ha Nam
+Expected: {'district': 'Thanh Liêm', 'ward': '', 'province': 'Hà Nam'}
+Actual: {'province': '', 'district': '', 'ward': 'Hòa Nam'}
+Differences:
+  Province: Expected 'Hà Nam', got ''
+  District: Expected 'Thanh Liêm', got ''
+  Ward: Expected '', got 'Hòa Nam'
+Notes: N/A
+
+Test Case 386:
+Input: X. Tam Đồng,HuyệnMê Linh,T.Phw HàNoi
+Expected: {'district': 'Mê Linh', 'ward': 'Tam Đồng', 'province': 'Hà Nội'}
+Actual: {'province': '', 'district': 'Mê Linh', 'ward': 'Tam Đồng'}
+Differences:
+  Province: Expected 'Hà Nội', got ''
+Notes: N/A
+
+Test Case 388:
+Input: F. An Phú T.X. Tịnh Biên T.An Giang
+Expected: {'district': 'Tịnh Biên', 'ward': 'An Phú', 'province': 'An Giang'}
+Actual: {'province': 'An Giang', 'district': 'Tịnh Biên', 'ward': ''}
+Differences:
+  Ward: Expected 'An Phú', got ''
+Notes: N/A
+
+Test Case 390:
+Input: X. Cat Chánh,HuyệnPhù Cát,
+Expected: {'district': 'Phù Cát', 'ward': 'Cát Chánh', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': 'Cát Chánh'}
+Differences:
+  District: Expected 'Phù Cát', got ''
+Notes: N/A
+
+Test Case 391:
+Input:  Ea Kmút,hyệnea Kar,Tỉnwh Đắk Lắk
+Expected: {'district': 'Ea Kar', 'ward': 'Ea Kmút', 'province': 'Đắk Lắk'}
+Actual: {'province': 'Đắk Lắk', 'district': 'Ea Kar', 'ward': ''}
+Differences:
+  Ward: Expected 'Ea Kmút', got ''
+Notes: N/A
+
+Test Case 392:
+Input: Xã 7Sơn Hà HuyệnNho Quan Tinh Ninh Bình
+Expected: {'district': 'Nho Quan', 'ward': 'Sơn Hà', 'province': 'Ninh Bình'}
+Actual: {'province': 'Ninh Bình', 'district': '', 'ward': 'Sơn Hà'}
+Differences:
+  District: Expected 'Nho Quan', got ''
+Notes: N/A
+
+Test Case 395:
+Input: Xthịnh Vượng,A , TG.Cao băng
+Expected: {'district': '', 'ward': 'Thịnh Vượng', 'province': 'Cao Bằng'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Cao Bằng', got ''
+  Ward: Expected 'Thịnh Vượng', got ''
+Notes: N/A
+
+Test Case 396:
+Input: Diên Thạnh,,T Khabnh Hòa
+Expected: {'district': '', 'ward': 'Diên Thạnh', 'province': 'Khánh Hòa'}
+Actual: {'province': 'Khánh Hòa', 'district': 'Diên Khánh', 'ward': ''}
+Differences:
+  District: Expected '', got 'Diên Khánh'
+  Ward: Expected 'Diên Thạnh', got ''
+Notes: N/A
+
+Test Case 399:
+Input: Đăk Nang H. Krông Nô TĐắk Nông
+Expected: {'district': 'Krông Nô', 'ward': 'Đắk Nang', 'province': 'Đắk Nông'}
+Actual: {'province': 'Đắk Nông', 'district': '', 'ward': 'Krông Á'}
+Differences:
+  District: Expected 'Krông Nô', got ''
+  Ward: Expected 'Đắk Nang', got 'Krông Á'
+Notes: N/A
+
+Test Case 406:
+Input: X. Bản Nguyen,HuyệnLâm Thao,
+Expected: {'district': 'Lâm Thao', 'ward': 'Bản Nguyên', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': 'Bản Nguyên'}
+Differences:
+  District: Expected 'Lâm Thao', got ''
+Notes: N/A
+
+Test Case 414:
+Input:  Quận 1 T.P H.C.Minh
+Expected: {'district': '1', 'ward': '', 'province': 'Hồ Chí Minh'}
+Actual: {'province': '', 'district': '1', 'ward': '1'}
+Differences:
+  Province: Expected 'Hồ Chí Minh', got ''
+  Ward: Expected '', got '1'
+Notes: N/A
+
+Test Case 416:
+Input: XDuy Hải  TQuảng Nam
+Expected: {'district': '', 'ward': 'Duy Hải', 'province': 'Quảng Nam'}
+Actual: {'province': 'Quảng Nam', 'district': 'Duyên Hải', 'ward': ''}
+Differences:
+  District: Expected '', got 'Duyên Hải'
+  Ward: Expected 'Duy Hải', got ''
+Notes: N/A
+
+Test Case 418:
+Input: x. Văn Cẩs HuyệnHung Hà Tthái Bình
+Expected: {'district': 'Hưng Hà', 'ward': 'Văn Cẩm', 'province': 'Thái Bình'}
+Actual: {'province': 'Thái Bình', 'district': '', 'ward': 'Văn Cẩm'}
+Differences:
+  District: Expected 'Hưng Hà', got ''
+Notes: N/A
+
+Test Case 421:
+Input:  Chương Dương, HuyệnĐôngHưng, 
+Expected: {'district': 'Đông Hưng', 'ward': 'Chương Dương', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Đông Hưng', got ''
+  Ward: Expected 'Chương Dương', got ''
+Notes: N/A
+
+Test Case 422:
+Input: Nậm Tin  Diện Biên
+Expected: {'district': '', 'ward': 'Nậm Tin', 'province': 'Điện Biên'}
+Actual: {'province': 'Điện Biên', 'district': '', 'ward': ''}
+Differences:
+  Ward: Expected 'Nậm Tin', got ''
+Notes: N/A
+
+Test Case 424:
+Input: , Tân Phươc, Tin GJiang
+Expected: {'district': 'Tân Phước', 'ward': '', 'province': 'Tiền Giang'}
+Actual: {'province': '', 'district': '', 'ward': 'Tân Giang'}
+Differences:
+  Province: Expected 'Tiền Giang', got ''
+  District: Expected 'Tân Phước', got ''
+  Ward: Expected '', got 'Tân Giang'
+Notes: N/A
+
+Test Case 430:
+Input: XQuỳnh Hôi, Quỳnh Phụ, Thái Bình
+Expected: {'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Hội', 'province': 'Thái Bình'}
+Actual: {'province': 'Thái Bình', 'district': 'Quỳnh Phụ', 'ward': 'Quỳnh Hải'}
+Differences:
+  Ward: Expected 'Quỳnh Hội', got 'Quỳnh Hải'
+Notes: N/A
+
+Test Case 431:
+Input:  Yn phú, HBắc Mê, TỉnhV Hà giang
+Expected: {'district': 'Bắc Mê', 'ward': 'Yên Phú', 'province': 'Hà Giang'}
+Actual: {'province': 'Hà Giang', 'district': 'Bắc Mê', 'ward': 'Hà Bắc'}
+Differences:
+  Ward: Expected 'Yên Phú', got 'Hà Bắc'
+Notes: N/A
+
+Test Case 437:
+Input: Phú Đô HuyệnPhú Lươnz 
+Expected: {'district': 'Phú Lương', 'ward': 'Phú Đô', 'province': ''}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Phú Lương', got ''
+  Ward: Expected 'Phú Đô', got ''
+Notes: N/A
+
+Test Case 438:
+Input:  Thái Ha, HBa Vì, T.pHNội
+Expected: {'district': 'Ba Vì', 'ward': 'Thái Hòa', 'province': 'Hà Nội'}
+Actual: {'province': 'Hà Nội', 'district': 'Ba Vì', 'ward': ''}
+Differences:
+  Ward: Expected 'Thái Hòa', got ''
+Notes: N/A
+
+Test Case 442:
+Input: , Nam Đông,T. T.T.H
+Expected: {'district': 'Nam Đông', 'ward': '', 'province': 'Thừa Thiên Huế'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Thừa Thiên Huế', got ''
+  District: Expected 'Nam Đông', got ''
+Notes: N/A
+
+Test Case 443:
+Input:  Cam Nhân HuyệnYên Bình TYên Bái
+Expected: {'district': 'Yên Bình', 'ward': 'Cảm Nhân', 'province': 'Yên Bái'}
+Actual: {'province': 'Yên Bái', 'district': '', 'ward': ''}
+Differences:
+  District: Expected 'Yên Bình', got ''
+  Ward: Expected 'Cảm Nhân', got ''
+Notes: N/A
+
+Test Case 444:
+Input: TTĐức An Huyện Đắk SongTỉnhĐắk Nông
+Expected: {'district': 'Đắk Song', 'ward': 'Đức An', 'province': 'Đắk Nông'}
+Actual: {'province': '', 'district': '', 'ward': 'A Nông'}
+Differences:
+  Province: Expected 'Đắk Nông', got ''
+  District: Expected 'Đắk Song', got ''
+  Ward: Expected 'Đức An', got 'A Nông'
+Notes: N/A
+
+Test Case 447:
+Input: X. Hương Liên HuyệnHương Khê T Hà Tinh
+Expected: {'district': 'Hương Khê', 'ward': 'Hương Liên', 'province': 'Hà Tĩnh'}
+Actual: {'province': 'Hà Tĩnh', 'district': '', 'ward': 'Hương Liên'}
+Differences:
+  District: Expected 'Hương Khê', got ''
+Notes: N/A
+
+Test Case 449:
+Input: Phườni Tràng Minh Q. Kiến An Thành phố Hải Phòng
+Expected: {'district': 'Kiến An', 'ward': 'Tràng Minh', 'province': 'Hải Phòng'}
+Actual: {'province': 'Hải Phòng', 'district': 'Kiến An', 'ward': ''}
+Differences:
+  Ward: Expected 'Tràng Minh', got ''
+Notes: N/A
+
+Test Case 454:
+Input:   Bắc Trà My TỉnhQuảng NaHm
+Expected: {'district': 'Bắc Trà My', 'ward': '', 'province': 'Quảng Nam'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Quảng Nam', got ''
+  District: Expected 'Bắc Trà My', got ''
+Notes: N/A
+
+Test Case 459:
+Input: Đông thanh AnE Minh T kien Giang
+Expected: {'district': 'An Minh', 'ward': 'Đông Thạnh', 'province': 'Kiên Giang'}
+Actual: {'province': 'Kiên Giang', 'district': 'An Minh', 'ward': 'Đông'}
+Differences:
+  Ward: Expected 'Đông Thạnh', got 'Đông'
+Notes: N/A
+
+Test Case 461:
+Input: P Thủy Châu,T.X. hươngThủy,Thừa.t.Huế
+Expected: {'district': 'Hương Thủy', 'ward': 'Thủy Châu', 'province': 'Thừa Thiên Huế'}
+Actual: {'province': '', 'district': 'Hương Thủy', 'ward': 'Thủy Châu'}
+Differences:
+  Province: Expected 'Thừa Thiên Huế', got ''
+Notes: N/A
+
+Test Case 464:
+Input: X.Nga Thanh hyện Nga son TỉnhThanhQ Hóa
+Expected: {'district': 'Nga Sơn', 'ward': 'Nga Thanh', 'province': 'Thanh Hóa'}
+Actual: {'province': '', 'district': '', 'ward': ''}
+Differences:
+  Province: Expected 'Thanh Hóa', got ''
+  District: Expected 'Nga Sơn', got ''
+  Ward: Expected 'Nga Thanh', got ''
+Notes: N/A

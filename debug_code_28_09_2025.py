@@ -118,7 +118,7 @@ district_list = create_list(districts)
 ward_list = create_list(wards)
 
 # Define prefixes for administrative levels (lowercase for matching)
-province_prefixes = ['', 'thành phố', 'thanh pho', 'thanhpho', 'tp', 'tp.', 't.p', 'th', 't', 'than', 'thanh', 'tph', 'thnàh phố', 'thànhphố', 'tỉnh', 'tinh', 't.', 'tí', 'tinhf', 'tin', 'tnh', 't.phố', 't phố', 't.pho', 't pho']
+province_prefixes = ['', 'thành phố', 'thanh pho', 'thanhpho', 'tp', 'tp.', 't.p', 't', 'than', 'thanh', 'tph', 'thnàh phố', 'thànhphố', 'tỉnh', 'tinh', 't.', 'tí', 'tinhf', 'tin', 'tnh', 't.phố', 't phố', 't.pho', 't pho']
 district_prefixes = ['', 'quận', 'quan', 'q', 'q.', 'qu', 'qaun', 'qận', 'huyện', 'huyen', 'h', 'h.', 'hu', 'hyuen', 'huyệ', 'thị xã', 'thi xa', 'thixa', 'tx', 'tx.', 't.x', 'th', 'txa', 'thịxa', 'thành phố', 'thanh pho', 'thanhpho', 'tp', 'tp.', 't.p', 'than', 'thanh', 'tph', 'thnàh phố', 'thànhphố', 't.xã', 't xã', 't.xa', 't xa', 't.phố', 't phố', 't.pho', 't pho']
 ward_prefixes = ['', 'phường', 'phuong', 'p', 'p.', 'ph', 'ph.', 'phuờng', 'phưng', 'puong', 'xã', 'xa', 'x', 'x.', 'xá', 'xạ', 'xãa', 'thị trấn', 'thi tran', 'thitran', 'tt', 'tt.', 't.t', 'th', 'ttr', 'thịtrấn', 't.trấn', 't tran', 't trấn', 't.tran']
 
@@ -337,6 +337,9 @@ def test_address_extraction():
     log_file.write(f"Expected: {expected}\n")
     log_file.write(f"Actual: {actual}\n")
     log_file.write(f"Correct: {is_correct}\n")
+    print(f"Expected: {expected}\n")
+    print(f"Actual: {actual}\n")
+    print(f"Correct: {is_correct}\n")
     if not is_correct:
         log_file.write("Differences:\n")
         for key in ["province", "district", "ward"]:
