@@ -193,7 +193,7 @@ def extract_address(text: str) -> Dict[str, str]:
 # Testing with test cases from test.json
 def test_address_extraction():
     try:
-        with open('test.json', 'r', encoding='utf-8') as f:
+        with open('tests.json', 'r', encoding='utf-8') as f:
             test_cases = json.load(f)
     except Exception as e:
         print(f"Error loading test.json: {e}")
